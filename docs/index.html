@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Boca</title>
+<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Boca">
+<meta name="theme-color" content="#0b1020">
+<link rel="apple-touch-icon" href="icono.png">
+<style>
+:root{
+  --fondo:#0b0f1a; --tarjeta:#161c2b; --tarjeta2:#1d2436; --borde:#2a3450;
+  --texto:#f2f4f8; --tenue:#8e97ad; --azul:#2b4bb5; --oro:#f5c518;
+  --verde:#32d74b; --rojo:#ff453a; --alto:96px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--fondo);color:var(--texto);
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif}
+body{padding:env(safe-area-inset-top) 0 calc(env(safe-area-inset-bottom) + 24px)}
+.envoltorio{max-width:560px;margin:0 auto;padding:0 16px}
+
+header{padding:22px 0 10px;display:flex;align-items:center;gap:12px}
+header .escudo{width:44px;height:44px;border-radius:12px;background:var(--azul);
+  display:grid;place-items:center;font-weight:800;color:var(--oro);font-size:17px;letter-spacing:.5px}
+header h1{font-size:30px;font-weight:800;margin:0;letter-spacing:-.6px}
+header .sub{font-size:12px;color:var(--tenue);margin-top:2px}
+
+.solapas{display:flex;gap:6px;background:var(--tarjeta);padding:4px;border-radius:12px;margin:14px 0 18px}
+.solapas button{flex:1;border:0;background:transparent;color:var(--tenue);font-size:14px;font-weight:600;
+  padding:9px 0;border-radius:9px;font-family:inherit;transition:.18s}
+.solapas button.activa{background:var(--tarjeta2);color:var(--texto);box-shadow:0 1px 3px #0006}
+
+.destacado{background:linear-gradient(150deg,#22306b,#141a2c);border:1px solid var(--borde);
+  border-radius:20px;padding:18px;margin-bottom:20px}
+.destacado .etiqueta{font-size:11px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--oro)}
+.duelo{display:flex;align-items:center;justify-content:center;gap:14px;margin:16px 0 12px}
+.duelo .lado{flex:1;text-align:center}
+.duelo img{width:52px;height:52px;object-fit:contain}
+.duelo .nombre{font-size:13px;font-weight:600;margin-top:8px;line-height:1.25}
+.duelo .vs{font-size:13px;color:var(--tenue);font-weight:700}
+.reloj{text-align:center;font-size:34px;font-weight:800;letter-spacing:-1px;font-variant-numeric:tabular-nums}
+.destacado .pie{text-align:center;color:var(--tenue);font-size:13px;margin-top:6px;line-height:1.5}
+
+.dia{font-size:12px;font-weight:700;color:var(--tenue);text-transform:uppercase;
+  letter-spacing:.8px;margin:20px 0 8px;padding-left:4px}
+.fila{display:flex;align-items:center;gap:12px;background:var(--tarjeta);border:1px solid var(--borde);
+  border-radius:16px;padding:13px 14px;margin-bottom:9px}
+.fila .hora{width:46px;flex-shrink:0;text-align:center}
+.fila .hora b{display:block;font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
+.fila .hora span{font-size:10px;color:var(--tenue);text-transform:uppercase}
+.fila .medio{flex:1;min-width:0}
+.fila .rival{font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fila .datos{font-size:12px;color:var(--tenue);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fila .marcador{font-size:17px;font-weight:800;font-variant-numeric:tabular-nums;flex-shrink:0}
+.gano{color:var(--verde)} .perdio{color:var(--rojo)} .empato{color:var(--tenue)}
+.local{display:inline-block;font-size:10px;font-weight:700;color:var(--oro);
+  border:1px solid var(--oro);border-radius:5px;padding:0 4px;margin-left:6px;vertical-align:1px}
+.vacio{text-align:center;color:var(--tenue);padding:40px 0;font-size:14px}
+footer{text-align:center;color:var(--tenue);font-size:11px;margin-top:28px;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="envoltorio">
+  <header>
+    <div class="escudo">CABJ</div>
+    <div><h1>Boca</h1><div class="sub" id="actualizado"></div></div>
+  </header>
+
+  <div class="solapas">
+    <button id="btn-proximos" class="activa">Próximos</button>
+    <button id="btn-resultados">Resultados</button>
+  </div>
+
+  <div id="pantalla"></div>
+
+  <footer>datos de ESPN · se actualiza solo todos los días<br>te llega un mail a las 9 cada vez que juega</footer>
+</div>
+
+<script>
+const MESES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+const DIAS = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+let datos = {partidos: []}, solapa = "proximos";
+
+const hoyAR = () => new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
+const aFecha = p => new Date(`${p.fecha}T${p.hora}:00-03:00`);
+
+function titulo(iso) {
+  const [a, m, d] = iso.split("-").map(Number);
+  const f = new Date(Date.UTC(a, m - 1, d));
+  const hoy = hoyAR();
+  if (iso === hoy) return "Hoy";
+  const manana = new Date(Date.UTC(...hoy.split("-").map((v, i) => i === 1 ? v - 1 : +v)) + 864e5)
+    .toISOString().slice(0, 10);
+  if (iso === manana) return "Mañana";
+  return `${DIAS[f.getUTCDay()]} ${d} de ${MESES[m - 1]}`;
+}
+
+function rivalDe(p) { return p.de_local ? p.visitante : p.local; }
+
+function fila(p, conMarcador) {
+  const rival = rivalDe(p);
+  const sello = p.de_local ? '<span class="local">LOCAL</span>' : "";
+  let derecha = `<div class="hora"><b>${p.hora}</b><span>hs</span></div>`;
+  if (conMarcador && p.goles_local !== null && p.goles_visitante !== null) {
+    const propios = p.de_local ? p.goles_local : p.goles_visitante;
+    const ajenos = p.de_local ? p.goles_visitante : p.goles_local;
+    const clase = propios > ajenos ? "gano" : propios < ajenos ? "perdio" : "empato";
+    derecha = `<div class="marcador ${clase}">${propios}-${ajenos}</div>`;
+  }
+  const izq = conMarcador
+    ? `<div class="hora"><b>${p.fecha.slice(8)}</b><span>${MESES[+p.fecha.slice(5, 7) - 1]}</span></div>`
+    : derecha;
+  const der = conMarcador ? derecha : "";
+  return `<div class="fila">${izq}
+    <div class="medio">
+      <div class="rival">${rival}${sello}</div>
+      <div class="datos">${p.torneo} · ${p.estadio}</div>
+    </div>${der}</div>`;
+}
+
+function cuentaAtras(p) {
+  const faltan = aFecha(p) - new Date();
+  if (faltan <= 0) return "¡Están jugando!";
+  const d = Math.floor(faltan / 864e5), h = Math.floor(faltan / 36e5) % 24, m = Math.floor(faltan / 6e4) % 60;
+  if (d > 0) return `faltan ${d}d ${h}h`;
+  if (h > 0) return `faltan ${h}h ${m}m`;
+  return `faltan ${m} min`;
+}
+
+function destacado(p) {
+  const escudo = (u, n) => `<div class="lado">${u ? `<img src="${u}" alt="">` : ""}<div class="nombre">${n}</div></div>`;
+  const cuando = p.fecha === hoyAR() ? "Hoy" : titulo(p.fecha);
+  return `<div class="destacado">
+    <div class="etiqueta">Próximo partido</div>
+    <div class="duelo">
+      ${escudo(p.escudo_local, p.local)}<div class="vs">VS</div>${escudo(p.escudo_visitante, p.visitante)}
+    </div>
+    <div class="reloj" id="reloj">${cuentaAtras(p)}</div>
+    <div class="pie">${cuando} · ${p.hora} hs<br>${p.estadio}<br>${p.torneo}</div>
+  </div>`;
+}
+
+function pintar() {
+  const pantalla = document.getElementById("pantalla");
+  const hoy = hoyAR();
+  document.getElementById("btn-proximos").classList.toggle("activa", solapa === "proximos");
+  document.getElementById("btn-resultados").classList.toggle("activa", solapa === "resultados");
+
+  if (solapa === "proximos") {
+    const proximos = datos.partidos.filter(p => p.fecha >= hoy && !p.jugado);
+    if (!proximos.length) { pantalla.innerHTML = '<div class="vacio">todavía no hay fechas confirmadas</div>'; return; }
+    let html = destacado(proximos[0]), ultimoDia = null;
+    proximos.slice(1).forEach(p => {
+      if (p.fecha !== ultimoDia) { html += `<div class="dia">${titulo(p.fecha)}</div>`; ultimoDia = p.fecha; }
+      html += fila(p, false);
+    });
+    pantalla.innerHTML = html;
+  } else {
+    const jugados = datos.partidos.filter(p => p.jugado).reverse();
+    pantalla.innerHTML = jugados.length
+      ? jugados.map(p => fila(p, true)).join("")
+      : '<div class="vacio">sin resultados todavía</div>';
+  }
+}
+
+document.getElementById("btn-proximos").onclick = () => { solapa = "proximos"; pintar(); };
+document.getElementById("btn-resultados").onclick = () => { solapa = "resultados"; pintar(); };
+
+fetch("partidos.json?v=" + Date.now()).then(r => r.json()).then(d => {
+  datos = d;
+  document.getElementById("actualizado").textContent = "actualizado " + d.actualizado + " hs";
+  pintar();
+  setInterval(() => {
+    const reloj = document.getElementById("reloj");
+    const prox = datos.partidos.filter(p => p.fecha >= hoyAR() && !p.jugado)[0];
+    if (reloj && prox) reloj.textContent = cuentaAtras(prox);
+  }, 30000);
+}).catch(() => {
+  document.getElementById("pantalla").innerHTML = '<div class="vacio">no pude cargar los partidos</div>';
+});
+</script>
+</body>
+</html>
