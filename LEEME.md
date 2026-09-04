@@ -31,19 +31,20 @@ python3 ~/boca-alertas/avisar.py --prueba
 
 ## Quién manda el aviso
 
-- **La Mac** (ya andando): `com.facundo.boca-alertas.plist` corre a las 9:00.
-  Refresca el calendario, lo sube a GitHub y manda el mail si Boca juega hoy.
-  Si a las 9 la Mac está apagada, el aviso sale cuando la prendés.
-- **GitHub Actions** (opcional, apagado): `.github/workflows/aviso-diario.yml` haría lo
-  mismo con la Mac apagada, pero el token de GitHub no tiene el permiso `workflow`,
-  así que el archivo queda local (está en el `.gitignore`). Para prenderlo hay que
-  darle ese permiso al token y cargar las claves como *secrets* del repo:
-  `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `AVISAR_A` (salen del `.env`).
+- **GitHub Actions** (el principal): `.github/workflows/aviso-diario.yml` corre todos los
+  días a las 12:00 UTC = 9:00 de Argentina, con la Mac apagada. Necesita las claves
+  cargadas como *secrets* del repo: `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`,
+  `AVISAR_A` (salen del `.env`).
+- **La Mac** (respaldo): `com.facundo.boca-alertas.plist` corre a las 9:00.
+  Antes de mandar hace `git pull`, así que si GitHub ya avisó hoy no manda nada duplicado
+  (la lista de días ya avisados vive en `avisados.json`, que sí se sube al repo).
 
-## Lo que falta hacer a mano
+El archivo del workflow está en el `.gitignore` porque el token de GitHub no tiene el
+permiso `workflow`: para editarlo hay que hacerlo desde la web de GitHub.
 
-Prender la web app: **Settings → Pages → Source: Deploy from a branch → main / docs → Save**.
-Queda en `https://fakka-cloud.github.io/boca-alertas/`, y se instala en el iPhone
-desde Safari con **Compartir → Agregar a inicio**.
+## La app
+
+Anda en `https://fakka-cloud.github.io/boca-alertas/`.
+Se instala en el iPhone desde Safari con **Compartir → Agregar a inicio**.
 
 El `.env` con la contraseña **no se sube** al repo (está en el `.gitignore`).
