@@ -29,28 +29,21 @@ Probar sin mandar nada:
 python3 ~/boca-alertas/avisar.py --prueba
 ```
 
-## Los dos avisadores
+## Quién manda el aviso
 
-- **En la Mac** (ya andando): `com.facundo.boca-alertas.plist` corre a las 9:00.
-  Si la Mac está apagada a esa hora, el aviso sale cuando la prendés.
-- **En GitHub** (falta activarlo): `.github/workflows/aviso-diario.yml` corre a las
-  9:00 aunque la Mac esté apagada. Para que funcione hay que hacer los pasos de abajo.
+- **La Mac** (ya andando): `com.facundo.boca-alertas.plist` corre a las 9:00.
+  Refresca el calendario, lo sube a GitHub y manda el mail si Boca juega hoy.
+  Si a las 9 la Mac está apagada, el aviso sale cuando la prendés.
+- **GitHub Actions** (opcional, apagado): `.github/workflows/aviso-diario.yml` haría lo
+  mismo con la Mac apagada, pero el token de GitHub no tiene el permiso `workflow`,
+  así que el archivo queda local (está en el `.gitignore`). Para prenderlo hay que
+  darle ese permiso al token y cargar las claves como *secrets* del repo:
+  `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `AVISAR_A` (salen del `.env`).
 
-## Pasos que tenés que hacer vos en GitHub
+## Lo que falta hacer a mano
 
-1. Crear el repo `boca-alertas` en <https://github.com/organizations/fakka-cloud/repositories/new>
-   (público, vacío, sin README).
-2. En la carpeta del proyecto, subirlo:
-
-   ```bash
-   cd ~/boca-alertas && git push -u origin main
-   ```
-
-3. Prender la app: **Settings → Pages → Source: Deploy from a branch → main / docs → Save**.
-   Queda en `https://fakka-cloud.github.io/boca-alertas/`.
-4. Cargar las claves del mail en **Settings → Secrets and variables → Actions → New secret**,
-   una por una (los valores están en el archivo `.env` de esta carpeta):
-   `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `AVISAR_A`.
-5. Probarlo: pestaña **Actions → aviso diario de boca → Run workflow**.
+Prender la web app: **Settings → Pages → Source: Deploy from a branch → main / docs → Save**.
+Queda en `https://fakka-cloud.github.io/boca-alertas/`, y se instala en el iPhone
+desde Safari con **Compartir → Agregar a inicio**.
 
 El `.env` con la contraseña **no se sube** al repo (está en el `.gitignore`).
