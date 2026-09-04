@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 avisados.json
 registro.log
+
+# El token de GitHub no tiene permiso "workflow": queda local hasta que haga falta.
+.github/
