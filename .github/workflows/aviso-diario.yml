@@ -1,1 +1,36 @@
-pbcopy < ~/boca-alertas/.github/workflows/aviso-diario.yml
+name: aviso diario de boca
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  avisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: traer los partidos
+        run: python3 traer_partidos.py
+
+      - name: mandar el mail si juega hoy
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_NOMBRE: ${{ secrets.SMTP_NOMBRE }}
+          AVISAR_A: ${{ secrets.AVISAR_A }}
+        run: python3 avisar.py
+
+      - name: guardar el calendario y lo ya avisado
+        run: |
+          git config user.name "boca-alertas"
+          git config user.email "actions@github.com"
+          git add docs/partidos.json avisados.json
+          git diff --staged --quiet || git commit -m "partidos al $(date +%F)"
+          git push
