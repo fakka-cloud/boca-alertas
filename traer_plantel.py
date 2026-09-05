@@ -102,14 +102,15 @@ def tabla():
 
 def ultimo_equipo():
     """Titulares y suplentes del último partido jugado."""
-    agenda = intentar(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{LIGA}/teams/{BOCA}/schedule")
-    if not agenda:
+    # El calendario que arma traer_partidos.py ya viene ordenado y con todos los torneos.
+    calendario = CASA / "docs" / "partidos.json"
+    if not calendario.exists():
         return None
-    jugados = [e for e in agenda.get("events", [])
-               if e["competitions"][0]["status"]["type"].get("completed")]
+    jugados = [p for p in json.loads(calendario.read_text(encoding="utf-8"))["partidos"] if p["jugado"]]
     if not jugados:
         return None
-    resumen = intentar(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{LIGA}/summary?event={jugados[-1]['id']}")
+    ultimo = max(jugados, key=lambda p: p["fecha"])
+    resumen = intentar(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{LIGA}/summary?event={ultimo['id']}")
     if not resumen or "rosters" not in resumen:
         return None
 
@@ -142,16 +143,14 @@ def ultimo_equipo():
         else:
             rival = c["team"].get("displayName", "")
             ajenos = c.get("score")
-    fecha = duelo.get("date", "")[:10]
-    if fecha:
-        a, m, d = fecha.split("-")
-        fecha = f"{d}/{m}"
+    a, m, d = ultimo["fecha"].split("-")  # la de ESPN viene en UTC y a veces cae al día siguiente
+    fecha = f"{d}/{m}"
 
     return {
         "rival": rival,
         "resultado": f"{propios}-{ajenos}" if propios is not None else "",
-        "gano": (propios or "0") > (ajenos or "0"),
-        "perdio": (propios or "0") < (ajenos or "0"),
+        "gano": int(propios or 0) > int(ajenos or 0),
+        "perdio": int(propios or 0) < int(ajenos or 0),
         "fecha": fecha,
         "formacion": nuestro.get("formation") or "",
         "titulares": gente(True),

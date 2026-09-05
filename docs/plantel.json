@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-04 15:41",
+ "actualizado": "2026-09-05 18:06",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -645,18 +645,18 @@
     "puesto": 9,
     "equipo": "Riestra",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
-    "pj": "7",
+    "pj": "8",
     "dif": "+1",
-    "pts": "8",
+    "pts": "9",
     "es_boca": false
    },
    {
     "puesto": 10,
     "equipo": "Platense",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-    "pj": "7",
+    "pj": "8",
     "dif": "-4",
-    "pts": "8",
+    "pts": "9",
     "es_boca": false
    },
    {
@@ -707,22 +707,22 @@
   ]
  },
  "ultimo": {
-  "rival": "Deportivo Riestra",
-  "resultado": "1-0",
-  "gano": true,
+  "rival": "Vélez Sarsfield",
+  "resultado": "0-0",
+  "gano": false,
   "perdio": false,
-  "fecha": "25/01",
+  "fecha": "02/09",
   "formacion": "4-3-3",
   "titulares": [
    {
-    "nombre": "Agustín Marchesín",
+    "nombre": "Álvaro Montero",
     "dorsal": "1",
     "puesto": "G",
     "salio": false
    },
    {
-    "nombre": "Ayrton Costa",
-    "dorsal": "32",
+    "nombre": "Facundo Herrera",
+    "dorsal": "42",
     "puesto": "CD-L",
     "salio": false
    },
@@ -739,8 +739,8 @@
     "salio": false
    },
    {
-    "nombre": "Juan Barinaga",
-    "dorsal": "24",
+    "nombre": "Leandro Lozano",
+    "dorsal": "17",
     "puesto": "RB",
     "salio": false
    },
@@ -748,31 +748,31 @@
     "nombre": "Leandro Paredes",
     "dorsal": "5",
     "puesto": "CM",
-    "salio": false
-   },
-   {
-    "nombre": "Ander Herrera",
-    "dorsal": "21",
-    "puesto": "LM",
     "salio": true
    },
    {
+    "nombre": "Santiago Ascacibar",
+    "dorsal": "25",
+    "puesto": "LM",
+    "salio": false
+   },
+   {
     "nombre": "Tomás Belmonte",
-    "dorsal": "30",
+    "dorsal": "8",
     "puesto": "RM",
     "salio": false
    },
    {
-    "nombre": "Lucas Janson",
-    "dorsal": "11",
+    "nombre": "Miguel Merentiel",
+    "dorsal": "16",
     "puesto": "F",
     "salio": true
    },
    {
-    "nombre": "Exequiel Zeballos",
-    "dorsal": "7",
+    "nombre": "Sebastián Villa",
+    "dorsal": "22",
     "puesto": "LF",
-    "salio": false
+    "salio": true
    },
    {
     "nombre": "Alan Velasco",
@@ -783,44 +783,20 @@
   ],
   "suplentes": [
    {
-    "nombre": "Camilo Rey",
-    "dorsal": "38",
+    "nombre": "Matías Satas",
+    "dorsal": "46",
     "puesto": "SUB",
     "entro": false
    },
    {
-    "nombre": "Leandro Brey",
+    "nombre": "Enner Valencia",
     "dorsal": "13",
     "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Kevin Zenón",
-    "dorsal": "22",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Malcom Braida",
-    "dorsal": "27",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Iker Zufiaurre",
-    "dorsal": "41",
-    "puesto": "SUB",
     "entro": true
    },
    {
-    "nombre": "Milton Delgado",
-    "dorsal": "18",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "Marco Pellegrino",
-    "dorsal": "26",
+    "nombre": "William Alarcón",
+    "dorsal": "15",
     "puesto": "SUB",
     "entro": false
    },
@@ -831,28 +807,52 @@
     "entro": false
    },
    {
-    "nombre": "Agustín Martegani",
-    "dorsal": "19",
+    "nombre": "Ángel Romero",
+    "dorsal": "11",
     "puesto": "SUB",
     "entro": false
    },
    {
-    "nombre": "William Alarcón",
-    "dorsal": "15",
+    "nombre": "Dylan Gorosito",
+    "dorsal": "24",
     "puesto": "SUB",
     "entro": false
    },
    {
-    "nombre": "Brian Aguirre",
-    "dorsal": "33",
+    "nombre": "Marco Pellegrino",
+    "dorsal": "26",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Kevin Zenón",
+    "dorsal": "21",
     "puesto": "SUB",
     "entro": true
    },
    {
-    "nombre": "Lucas Blondel",
-    "dorsal": "17",
+    "nombre": "Carlos Palacios",
+    "dorsal": "7",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Camilo Rey",
+    "dorsal": "23",
     "puesto": "SUB",
     "entro": false
+   },
+   {
+    "nombre": "Leandro Brey",
+    "dorsal": "12",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Leonel Flores",
+    "dorsal": "19",
+    "puesto": "SUB",
+    "entro": true
    }
   ]
  }
