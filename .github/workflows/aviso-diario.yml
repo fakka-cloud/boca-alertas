@@ -17,6 +17,9 @@ jobs:
       - name: traer los partidos
         run: python3 traer_partidos.py
 
+      - name: traer el plantel y la tabla
+        run: python3 traer_plantel.py
+
       - name: mandar el mail si juega hoy
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
@@ -31,6 +34,6 @@ jobs:
         run: |
           git config user.name "boca-alertas"
           git config user.email "actions@github.com"
-          git add docs/partidos.json avisados.json
+          git add docs/partidos.json docs/plantel.json avisados.json
           git diff --staged --quiet || git commit -m "partidos al $(date +%F)"
           git push
