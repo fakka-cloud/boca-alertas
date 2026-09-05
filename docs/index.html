@@ -27,8 +27,8 @@ header .escudo{width:46px;height:46px;object-fit:contain;flex:none}
 header h1{font-size:30px;font-weight:800;margin:0;letter-spacing:-.6px}
 header .sub{font-size:12px;color:var(--tenue);margin-top:2px}
 
-.solapas{display:flex;gap:6px;background:var(--tarjeta);padding:4px;border-radius:12px;margin:14px 0 18px}
-.solapas button{flex:1;border:0;background:transparent;color:var(--tenue);font-size:14px;font-weight:600;
+.solapas{display:flex;gap:4px;background:var(--tarjeta);padding:4px;border-radius:12px;margin:14px 0 18px}
+.solapas button{flex:1;border:0;background:transparent;color:var(--tenue);font-size:13px;font-weight:600;
   padding:9px 0;border-radius:9px;font-family:inherit;transition:.18s}
 .solapas button.activa{background:var(--tarjeta2);color:var(--texto);box-shadow:0 1px 3px #0006}
 
@@ -59,6 +59,50 @@ header .sub{font-size:12px;color:var(--tenue);margin-top:2px}
   border:1px solid var(--oro);border-radius:5px;padding:0 4px;margin-left:6px;vertical-align:1px}
 .vacio{text-align:center;color:var(--tenue);padding:40px 0;font-size:14px}
 footer{text-align:center;color:var(--tenue);font-size:11px;margin-top:28px;line-height:1.7}
+
+/* --- plantel y tabla --- */
+.lideres{display:flex;gap:9px;margin-bottom:18px}
+.lider{flex:1;background:var(--tarjeta);border:1px solid var(--borde);border-radius:16px;
+  padding:12px 10px;text-align:center;min-width:0}
+.lider .que{font-size:10px;color:var(--tenue);text-transform:uppercase;letter-spacing:.7px}
+.lider .cuanto{font-size:24px;font-weight:800;color:var(--oro);margin:4px 0 2px;font-variant-numeric:tabular-nums}
+.lider .quien{font-size:11px;color:var(--texto);line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.equipo{background:var(--tarjeta);border:1px solid var(--borde);border-radius:20px;padding:16px;margin-bottom:22px}
+.equipo .arriba{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:4px}
+.equipo .arriba .tit{font-size:11px;font-weight:700;letter-spacing:1.3px;text-transform:uppercase;color:var(--oro)}
+.equipo .arriba .form{font-size:12px;color:var(--tenue);font-weight:700}
+.equipo .contra{font-size:15px;font-weight:600;margin-bottom:12px}
+.equipo .contra .res{font-weight:800;margin-left:6px;font-variant-numeric:tabular-nums}
+.once{display:flex;align-items:center;gap:10px;padding:7px 0;border-top:1px solid var(--borde)}
+.once .nro{width:24px;text-align:center;font-size:12px;font-weight:700;color:var(--tenue);font-variant-numeric:tabular-nums;flex:none}
+.once .quien{flex:1;font-size:14px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.once .marca{font-size:11px;font-weight:700;flex:none}
+.subtit{font-size:11px;font-weight:700;color:var(--tenue);text-transform:uppercase;
+  letter-spacing:1px;margin:16px 0 2px}
+
+.jug{display:flex;align-items:center;gap:11px;background:var(--tarjeta);border:1px solid var(--borde);
+  border-radius:14px;padding:10px 13px;margin-bottom:7px}
+.jug .nro{width:26px;flex:none;text-align:center;font-size:15px;font-weight:800;
+  color:var(--oro);font-variant-numeric:tabular-nums}
+.jug .medio{flex:1;min-width:0}
+.jug .nom{font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.jug .meta{font-size:11px;color:var(--tenue);margin-top:2px}
+.jug .cifras{font-size:11px;color:var(--tenue);text-align:right;flex:none;line-height:1.4;font-variant-numeric:tabular-nums}
+.jug .cifras b{color:var(--texto);font-size:13px}
+
+.tabla{background:var(--tarjeta);border:1px solid var(--borde);border-radius:18px;overflow:hidden}
+.tabla .cab,.tabla .eq{display:flex;align-items:center;gap:9px;padding:9px 13px;font-variant-numeric:tabular-nums}
+.tabla .cab{font-size:10px;color:var(--tenue);text-transform:uppercase;letter-spacing:.8px}
+.tabla .eq{border-top:1px solid var(--borde);font-size:14px}
+.tabla .eq.boca{background:#22306b}
+.tabla .pos{width:20px;text-align:center;font-size:12px;color:var(--tenue);flex:none}
+.tabla .eq.boca .pos{color:var(--oro);font-weight:800}
+.tabla img{width:20px;height:20px;object-fit:contain;flex:none}
+.tabla .nom{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tabla .num{width:32px;text-align:center;flex:none;font-size:13px;color:var(--tenue)}
+.tabla .pts{width:32px;text-align:center;flex:none;font-weight:800}
+.nota{font-size:11px;color:var(--tenue);text-align:center;margin-top:12px;line-height:1.6}
 </style>
 </head>
 <body>
@@ -71,6 +115,8 @@ footer{text-align:center;color:var(--tenue);font-size:11px;margin-top:28px;line-
   <div class="solapas">
     <button id="btn-proximos" class="activa">Próximos</button>
     <button id="btn-resultados">Resultados</button>
+    <button id="btn-plantel">Plantel</button>
+    <button id="btn-tabla">Tabla</button>
   </div>
 
   <div id="pantalla"></div>
@@ -81,7 +127,8 @@ footer{text-align:center;color:var(--tenue);font-size:11px;margin-top:28px;line-
 <script>
 const MESES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
 const DIAS = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
-let datos = {partidos: []}, solapa = "proximos";
+const SOLAPAS = ["proximos","resultados","plantel","tabla"];
+let datos = {partidos: []}, club = null, solapa = "proximos";
 
 const hoyAR = () => new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
 const aFecha = p => new Date(`${p.fecha}T${p.hora}:00-03:00`);
@@ -142,11 +189,84 @@ function destacado(p) {
   </div>`;
 }
 
+/* ---------- plantel ---------- */
+
+function lider(que, campo) {
+  const gente = club.plantel.filter(j => j[campo] > 0);
+  if (!gente.length) return `<div class="lider"><div class="que">${que}</div><div class="cuanto">0</div><div class="quien">—</div></div>`;
+  const mejor = gente.reduce((a, b) => b[campo] > a[campo] ? b : a);
+  const corto = mejor.nombre.split(" ").slice(-1)[0];
+  return `<div class="lider"><div class="que">${que}</div>
+    <div class="cuanto">${mejor[campo]}</div><div class="quien">${corto}</div></div>`;
+}
+
+function ultimoEquipo(u) {
+  if (!u) return "";
+  const clase = u.gano ? "gano" : u.perdio ? "perdio" : "empato";
+  const linea = j => `<div class="once">
+      <div class="nro">${j.dorsal}</div>
+      <div class="quien">${j.nombre}</div>
+      <div class="marca ${j.salio ? "perdio" : "gano"}">${j.salio ? "↓" : j.entro ? "↑" : ""}</div>
+    </div>`;
+  const suplentes = u.suplentes.filter(j => j.entro).concat(u.suplentes.filter(j => !j.entro));
+  return `<div class="equipo">
+    <div class="arriba"><div class="tit">Último equipo</div><div class="form">${u.formacion}</div></div>
+    <div class="contra">vs ${u.rival}<span class="res ${clase}">${u.resultado}</span>
+      <span style="color:var(--tenue);font-weight:400;font-size:13px"> · ${u.fecha}</span></div>
+    ${u.titulares.map(linea).join("")}
+    <div class="subtit">Suplentes</div>
+    ${suplentes.map(linea).join("")}
+  </div>`;
+}
+
+function pintarPlantel() {
+  if (!club || !club.plantel.length) return '<div class="vacio">no pude cargar el plantel</div>';
+  let html = `<div class="lideres">${lider("Goles", "goles")}${lider("Asistencias", "asistencias")}${lider("Amarillas", "amarillas")}</div>`;
+  html += ultimoEquipo(club.ultimo);
+  let puesto = null;
+  club.plantel.forEach(j => {
+    if (j.puesto !== puesto) { html += `<div class="dia">${j.puesto}</div>`; puesto = j.puesto; }
+    const arq = j.puesto === "Arqueros";
+    const cifras = arq
+      ? `<b>${j.pj}</b> PJ`
+      : `<b>${j.goles}</b> G · <b>${j.asistencias}</b> A<br>${j.pj} PJ`;
+    html += `<div class="jug">
+      <div class="nro">${j.dorsal || "–"}</div>
+      <div class="medio">
+        <div class="nom">${j.nombre}</div>
+        <div class="meta">${j.pais}${j.edad ? " · " + j.edad + " años" : ""}</div>
+      </div>
+      <div class="cifras">${cifras}</div>
+    </div>`;
+  });
+  html += '<div class="nota">los partidos jugados y los goles son de toda la temporada</div>';
+  return html;
+}
+
+function pintarTabla() {
+  if (!club || !club.tabla.filas.length) return '<div class="vacio">no pude cargar la tabla</div>';
+  const filas = club.tabla.filas.map(e => `<div class="eq ${e.es_boca ? "boca" : ""}">
+      <div class="pos">${e.puesto}</div>
+      <img src="${e.escudo}" alt="">
+      <div class="nom">${e.equipo}</div>
+      <div class="num">${e.pj}</div>
+      <div class="num">${e.dif}</div>
+      <div class="pts">${e.pts}</div>
+    </div>`).join("");
+  return `<div class="dia">${club.tabla.zona}</div>
+    <div class="tabla">
+      <div class="cab"><div class="pos">#</div><div style="width:20px"></div>
+        <div class="nom">Equipo</div><div class="num">PJ</div><div class="num">DIF</div><div class="pts">PTS</div></div>
+      ${filas}
+    </div>`;
+}
+
+/* ---------- ---------- */
+
 function pintar() {
   const pantalla = document.getElementById("pantalla");
   const hoy = hoyAR();
-  document.getElementById("btn-proximos").classList.toggle("activa", solapa === "proximos");
-  document.getElementById("btn-resultados").classList.toggle("activa", solapa === "resultados");
+  SOLAPAS.forEach(s => document.getElementById("btn-" + s).classList.toggle("activa", solapa === s));
 
   if (solapa === "proximos") {
     const proximos = datos.partidos.filter(p => p.fecha >= hoy && !p.jugado);
@@ -157,16 +277,24 @@ function pintar() {
       html += fila(p, false);
     });
     pantalla.innerHTML = html;
-  } else {
+  } else if (solapa === "resultados") {
     const jugados = datos.partidos.filter(p => p.jugado).reverse();
     pantalla.innerHTML = jugados.length
       ? jugados.map(p => fila(p, true)).join("")
       : '<div class="vacio">sin resultados todavía</div>';
+  } else if (solapa === "plantel") {
+    pantalla.innerHTML = pintarPlantel();
+  } else {
+    pantalla.innerHTML = pintarTabla();
   }
 }
 
-document.getElementById("btn-proximos").onclick = () => { solapa = "proximos"; pintar(); };
-document.getElementById("btn-resultados").onclick = () => { solapa = "resultados"; pintar(); };
+SOLAPAS.forEach(s => { document.getElementById("btn-" + s).onclick = () => { solapa = s; pintar(); }; });
+
+fetch("plantel.json?v=" + Date.now()).then(r => r.json()).then(d => {
+  club = d;
+  if (solapa === "plantel" || solapa === "tabla") pintar();
+}).catch(() => {});
 
 fetch("partidos.json?v=" + Date.now()).then(r => r.json()).then(d => {
   datos = d;

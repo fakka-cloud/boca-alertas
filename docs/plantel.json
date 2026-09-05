@@ -1,0 +1,859 @@
+{
+ "actualizado": "2026-09-04 15:41",
+ "plantel": [
+  {
+   "nombre": "Agustín Marchesín",
+   "dorsal": "1",
+   "puesto": "Arqueros",
+   "edad": 38,
+   "pais": "Argentina",
+   "pj": 12,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Álvaro Montero",
+   "dorsal": "1",
+   "puesto": "Arqueros",
+   "edad": 31,
+   "pais": "Colombia",
+   "pj": 7,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Leandro Brey",
+   "dorsal": "12",
+   "puesto": "Arqueros",
+   "edad": 23,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Javier García",
+   "dorsal": "13",
+   "puesto": "Arqueros",
+   "edad": 39,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Fernando Rodríguez",
+   "dorsal": "47",
+   "puesto": "Arqueros",
+   "edad": 21,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Lautaro Di Lollo",
+   "dorsal": "2",
+   "puesto": "Defensores",
+   "edad": 22,
+   "pais": "Argentina",
+   "pj": 6,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Lautaro Blanco",
+   "dorsal": "3",
+   "puesto": "Defensores",
+   "edad": 27,
+   "pais": "Argentina",
+   "pj": 7,
+   "goles": 0,
+   "asistencias": 1,
+   "amarillas": 1,
+   "rojas": 0
+  },
+  {
+   "nombre": "Jorge Figal",
+   "dorsal": "4",
+   "puesto": "Defensores",
+   "edad": 32,
+   "pais": "Argentina",
+   "pj": 1,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Leandro Lozano",
+   "dorsal": "17",
+   "puesto": "Defensores",
+   "edad": 27,
+   "pais": "Uruguay",
+   "pj": 4,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Marco Pellegrino",
+   "dorsal": "26",
+   "puesto": "Defensores",
+   "edad": 24,
+   "pais": "Argentina",
+   "pj": 4,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Ayrton Costa",
+   "dorsal": "32",
+   "puesto": "Defensores",
+   "edad": 27,
+   "pais": "Argentina",
+   "pj": 4,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 3,
+   "rojas": 0
+  },
+  {
+   "nombre": "Facundo Herrera",
+   "dorsal": "42",
+   "puesto": "Defensores",
+   "edad": 20,
+   "pais": "Argentina",
+   "pj": 2,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Matías Satas",
+   "dorsal": "46",
+   "puesto": "Defensores",
+   "edad": 18,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Baltazar Blum Macías",
+   "dorsal": "48",
+   "puesto": "Defensores",
+   "edad": null,
+   "pais": "",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Dylan Gorosito",
+   "dorsal": "48",
+   "puesto": "Defensores",
+   "edad": 20,
+   "pais": "Argentina",
+   "pj": 4,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Gian Paoli",
+   "dorsal": "51",
+   "puesto": "Defensores",
+   "edad": 20,
+   "pais": "Paraguay",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Leandro Paredes",
+   "dorsal": "5",
+   "puesto": "Mediocampistas",
+   "edad": 32,
+   "pais": "Argentina",
+   "pj": 5,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 1,
+   "rojas": 0
+  },
+  {
+   "nombre": "Rodrigo Battaglia",
+   "dorsal": "6",
+   "puesto": "Mediocampistas",
+   "edad": 35,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Carlos Palacios",
+   "dorsal": "8",
+   "puesto": "Mediocampistas",
+   "edad": 26,
+   "pais": "Chile",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "William Alarcón",
+   "dorsal": "15",
+   "puesto": "Mediocampistas",
+   "edad": 25,
+   "pais": "Chile",
+   "pj": 1,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Milton Delgado",
+   "dorsal": "18",
+   "puesto": "Mediocampistas",
+   "edad": 21,
+   "pais": "Argentina",
+   "pj": 6,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 2,
+   "rojas": 0
+  },
+  {
+   "nombre": "Alan Velasco",
+   "dorsal": "20",
+   "puesto": "Mediocampistas",
+   "edad": 24,
+   "pais": "Argentina",
+   "pj": 7,
+   "goles": 1,
+   "asistencias": 0,
+   "amarillas": 1,
+   "rojas": 0
+  },
+  {
+   "nombre": "Kevin Zenón",
+   "dorsal": "21",
+   "puesto": "Mediocampistas",
+   "edad": 25,
+   "pais": "Argentina",
+   "pj": 3,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Santiago Ascacibar",
+   "dorsal": "25",
+   "puesto": "Mediocampistas",
+   "edad": 29,
+   "pais": "Argentina",
+   "pj": 7,
+   "goles": 3,
+   "asistencias": 2,
+   "amarillas": 1,
+   "rojas": 0
+  },
+  {
+   "nombre": "Malcom Braida",
+   "dorsal": "27",
+   "puesto": "Mediocampistas",
+   "edad": 29,
+   "pais": "Argentina",
+   "pj": 1,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Tomás Belmonte",
+   "dorsal": "30",
+   "puesto": "Mediocampistas",
+   "edad": 28,
+   "pais": "Argentina",
+   "pj": 2,
+   "goles": 1,
+   "asistencias": 0,
+   "amarillas": 1,
+   "rojas": 0
+  },
+  {
+   "nombre": "Gonzalo Tomás Márquez",
+   "dorsal": "31",
+   "puesto": "Mediocampistas",
+   "edad": null,
+   "pais": "",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Lautaro Mendieta",
+   "dorsal": "33",
+   "puesto": "Mediocampistas",
+   "edad": null,
+   "pais": "",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Tomás Aranda",
+   "dorsal": "36",
+   "puesto": "Mediocampistas",
+   "edad": 19,
+   "pais": "Argentina",
+   "pj": 6,
+   "goles": 0,
+   "asistencias": 1,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Camilo Rey",
+   "dorsal": "38",
+   "puesto": "Mediocampistas",
+   "edad": 20,
+   "pais": "Argentina",
+   "pj": 4,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Matias Calegari",
+   "dorsal": "39",
+   "puesto": "Mediocampistas",
+   "edad": null,
+   "pais": "",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Dante Gonzalez",
+   "dorsal": "50",
+   "puesto": "Mediocampistas",
+   "edad": 19,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Milton Gimenez",
+   "dorsal": "9",
+   "puesto": "Delanteros",
+   "edad": 30,
+   "pais": "Argentina",
+   "pj": 2,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Enner Valencia",
+   "dorsal": "13",
+   "puesto": "Delanteros",
+   "edad": 36,
+   "pais": "Ecuador",
+   "pj": 2,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Miguel Merentiel",
+   "dorsal": "16",
+   "puesto": "Delanteros",
+   "edad": 30,
+   "pais": "Uruguay",
+   "pj": 7,
+   "goles": 2,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Sebastián Villa",
+   "dorsal": "22",
+   "puesto": "Delanteros",
+   "edad": 30,
+   "pais": "Colombia",
+   "pj": 7,
+   "goles": 0,
+   "asistencias": 1,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Adam Bareiro",
+   "dorsal": "28",
+   "puesto": "Delanteros",
+   "edad": 30,
+   "pais": "Paraguay",
+   "pj": 1,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Ángel Romero",
+   "dorsal": "29",
+   "puesto": "Delanteros",
+   "edad": 34,
+   "pais": "Paraguay",
+   "pj": 1,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Juan Payal",
+   "dorsal": "34",
+   "puesto": "Delanteros",
+   "edad": 21,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Franco Sebastián Pérez",
+   "dorsal": "35",
+   "puesto": "Delanteros",
+   "edad": null,
+   "pais": "",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Leonel Flores",
+   "dorsal": "44",
+   "puesto": "Delanteros",
+   "edad": 19,
+   "pais": "Argentina",
+   "pj": 7,
+   "goles": 0,
+   "asistencias": 1,
+   "amarillas": 2,
+   "rojas": 0
+  },
+  {
+   "nombre": "Rodrigo Bacidalupe",
+   "dorsal": "44",
+   "puesto": "Delanteros",
+   "edad": 19,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Miguel Ventos",
+   "dorsal": "45",
+   "puesto": "Delanteros",
+   "edad": 21,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Joaquín Piñeyro",
+   "dorsal": "49",
+   "puesto": "Delanteros",
+   "edad": 18,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Juan Pussetto",
+   "dorsal": "52",
+   "puesto": "Delanteros",
+   "edad": 18,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Joaquín Ruíz",
+   "dorsal": "53",
+   "puesto": "Delanteros",
+   "edad": 20,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
+   "nombre": "Kevin Ferreira",
+   "dorsal": "54",
+   "puesto": "Delanteros",
+   "edad": 18,
+   "pais": "Argentina",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  }
+ ],
+ "tabla": {
+  "zona": "Zona A",
+  "filas": [
+   {
+    "puesto": 1,
+    "equipo": "Instituto",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
+    "pj": "7",
+    "dif": "+4",
+    "pts": "16",
+    "es_boca": false
+   },
+   {
+    "puesto": 2,
+    "equipo": "Gimnasia (M)",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
+    "pj": "7",
+    "dif": "+7",
+    "pts": "15",
+    "es_boca": false
+   },
+   {
+    "puesto": 3,
+    "equipo": "Def. y Jus.",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+    "pj": "7",
+    "dif": "+1",
+    "pts": "14",
+    "es_boca": false
+   },
+   {
+    "puesto": 4,
+    "equipo": "Vélez ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+    "pj": "7",
+    "dif": "+4",
+    "pts": "13",
+    "es_boca": false
+   },
+   {
+    "puesto": 5,
+    "equipo": "Newell's",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+    "pj": "7",
+    "dif": "+2",
+    "pts": "11",
+    "es_boca": false
+   },
+   {
+    "puesto": 6,
+    "equipo": "Unión (SF)",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
+    "pj": "7",
+    "dif": "+2",
+    "pts": "10",
+    "es_boca": false
+   },
+   {
+    "puesto": 7,
+    "equipo": "Independiente",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+    "pj": "7",
+    "dif": "0",
+    "pts": "10",
+    "es_boca": false
+   },
+   {
+    "puesto": 8,
+    "equipo": "Boca ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+    "pj": "7",
+    "dif": "-1",
+    "pts": "10",
+    "es_boca": true
+   },
+   {
+    "puesto": 9,
+    "equipo": "Riestra",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
+    "pj": "7",
+    "dif": "+1",
+    "pts": "8",
+    "es_boca": false
+   },
+   {
+    "puesto": 10,
+    "equipo": "Platense",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+    "pj": "7",
+    "dif": "-4",
+    "pts": "8",
+    "es_boca": false
+   },
+   {
+    "puesto": 11,
+    "equipo": "Estudiantes",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+    "pj": "7",
+    "dif": "0",
+    "pts": "7",
+    "es_boca": false
+   },
+   {
+    "puesto": 12,
+    "equipo": "Lanús ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+    "pj": "7",
+    "dif": "-1",
+    "pts": "7",
+    "es_boca": false
+   },
+   {
+    "puesto": 13,
+    "equipo": "C. Córdoba (SE)",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
+    "pj": "7",
+    "dif": "-3",
+    "pts": "7",
+    "es_boca": false
+   },
+   {
+    "puesto": 14,
+    "equipo": "San Lorenzo ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
+    "pj": "7",
+    "dif": "-3",
+    "pts": "7",
+    "es_boca": false
+   },
+   {
+    "puesto": 15,
+    "equipo": "Talleres ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
+    "pj": "7",
+    "dif": "-4",
+    "pts": "5",
+    "es_boca": false
+   }
+  ]
+ },
+ "ultimo": {
+  "rival": "Deportivo Riestra",
+  "resultado": "1-0",
+  "gano": true,
+  "perdio": false,
+  "fecha": "25/01",
+  "formacion": "4-3-3",
+  "titulares": [
+   {
+    "nombre": "Agustín Marchesín",
+    "dorsal": "1",
+    "puesto": "G",
+    "salio": false
+   },
+   {
+    "nombre": "Ayrton Costa",
+    "dorsal": "32",
+    "puesto": "CD-L",
+    "salio": false
+   },
+   {
+    "nombre": "Lautaro Di Lollo",
+    "dorsal": "2",
+    "puesto": "CD-R",
+    "salio": false
+   },
+   {
+    "nombre": "Lautaro Blanco",
+    "dorsal": "3",
+    "puesto": "LB",
+    "salio": false
+   },
+   {
+    "nombre": "Juan Barinaga",
+    "dorsal": "24",
+    "puesto": "RB",
+    "salio": false
+   },
+   {
+    "nombre": "Leandro Paredes",
+    "dorsal": "5",
+    "puesto": "CM",
+    "salio": false
+   },
+   {
+    "nombre": "Ander Herrera",
+    "dorsal": "21",
+    "puesto": "LM",
+    "salio": true
+   },
+   {
+    "nombre": "Tomás Belmonte",
+    "dorsal": "30",
+    "puesto": "RM",
+    "salio": false
+   },
+   {
+    "nombre": "Lucas Janson",
+    "dorsal": "11",
+    "puesto": "F",
+    "salio": true
+   },
+   {
+    "nombre": "Exequiel Zeballos",
+    "dorsal": "7",
+    "puesto": "LF",
+    "salio": false
+   },
+   {
+    "nombre": "Alan Velasco",
+    "dorsal": "20",
+    "puesto": "RF",
+    "salio": true
+   }
+  ],
+  "suplentes": [
+   {
+    "nombre": "Camilo Rey",
+    "dorsal": "38",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Leandro Brey",
+    "dorsal": "13",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Kevin Zenón",
+    "dorsal": "22",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Malcom Braida",
+    "dorsal": "27",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Iker Zufiaurre",
+    "dorsal": "41",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Milton Delgado",
+    "dorsal": "18",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Marco Pellegrino",
+    "dorsal": "26",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Jorge Figal",
+    "dorsal": "4",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Agustín Martegani",
+    "dorsal": "19",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "William Alarcón",
+    "dorsal": "15",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Brian Aguirre",
+    "dorsal": "33",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Lucas Blondel",
+    "dorsal": "17",
+    "puesto": "SUB",
+    "entro": false
+   }
+  ]
+ }
+}

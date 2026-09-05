@@ -2,7 +2,8 @@
 
 Dos cosas:
 
-1. **La app** (`docs/`): calendario de Boca con los próximos partidos y los resultados.
+1. **La app** (`docs/`): calendario de Boca con los próximos partidos, los resultados,
+   el plantel completo con estadísticas y la tabla de posiciones.
    Se instala en el iPhone desde Safari → Compartir → *Agregar a inicio*.
 2. **El mail**: todos los días a las 9 de la mañana, si Boca juega, llega un mail así:
 
@@ -19,9 +20,22 @@ y amistosos.
 | archivo | qué hace |
 |---|---|
 | `traer_partidos.py` | baja los partidos de ESPN y los guarda en `docs/partidos.json` |
+| `traer_plantel.py` | baja el plantel, las estadísticas, la tabla y el último equipo → `docs/plantel.json` |
 | `avisar.py` | si Boca juega hoy, manda el mail |
-| `correr.sh` | hace las dos cosas seguidas (lo que ejecuta la Mac a las 9) |
+| `correr.sh` | hace todo seguido (lo que ejecuta la Mac a las 9) |
 | `docs/index.html` | la app |
+
+La app tiene cuatro solapas:
+
+- **Próximos**: el próximo partido con cuenta regresiva y el resto del calendario.
+- **Resultados**: los partidos ya jugados con el marcador.
+- **Plantel**: goleador, asistidor y amonestado del año; el equipo del último partido
+  (formación, titulares y suplentes, con ↑ el que entró y ↓ el que salió) y todo el
+  plantel por puesto con partidos jugados, goles y asistencias.
+- **Tabla**: las posiciones de la zona de Boca, con Boca resaltado.
+
+*Lesionados* y *cedidos a préstamo* no están: la API gratuita de ESPN no los publica
+para el fútbol argentino.
 
 Probar sin mandar nada:
 
