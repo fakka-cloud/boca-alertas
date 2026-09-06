@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-06 09:17",
+ "actualizado": "2026-09-06 11:42",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -719,11 +719,11 @@
   ]
  },
  "ultimo": {
-  "rival": "Vélez Sarsfield",
-  "resultado": "0-0",
+  "rival": "Gimnasia (Mendoza)",
+  "resultado": "2-2",
   "gano": false,
   "perdio": false,
-  "fecha": "02/09",
+  "fecha": "05/09",
   "formacion": "4-3-3",
   "titulares": [
    {
@@ -733,58 +733,58 @@
     "salio": false
    },
    {
-    "nombre": "Facundo Herrera",
-    "dorsal": "42",
+    "nombre": "Marco Pellegrino",
+    "dorsal": "26",
     "puesto": "CD-L",
-    "salio": false
+    "salio": true
    },
    {
-    "nombre": "Lautaro Di Lollo",
-    "dorsal": "2",
+    "nombre": "Jorge Figal",
+    "dorsal": "4",
     "puesto": "CD-R",
     "salio": false
    },
    {
-    "nombre": "Lautaro Blanco",
-    "dorsal": "3",
+    "nombre": "Matías Satas",
+    "dorsal": "46",
     "puesto": "LB",
-    "salio": false
+    "salio": true
    },
    {
-    "nombre": "Leandro Lozano",
-    "dorsal": "17",
+    "nombre": "Dylan Gorosito",
+    "dorsal": "24",
     "puesto": "RB",
     "salio": false
    },
    {
-    "nombre": "Leandro Paredes",
-    "dorsal": "5",
+    "nombre": "Camilo Rey",
+    "dorsal": "23",
     "puesto": "CM",
-    "salio": true
+    "salio": false
    },
    {
-    "nombre": "Santiago Ascacibar",
-    "dorsal": "25",
+    "nombre": "Kevin Zenón",
+    "dorsal": "21",
     "puesto": "LM",
-    "salio": false
+    "salio": true
    },
    {
     "nombre": "Tomás Belmonte",
     "dorsal": "8",
     "puesto": "RM",
+    "salio": true
+   },
+   {
+    "nombre": "Enner Valencia",
+    "dorsal": "13",
+    "puesto": "F",
     "salio": false
    },
    {
-    "nombre": "Miguel Merentiel",
-    "dorsal": "16",
-    "puesto": "F",
-    "salio": true
-   },
-   {
-    "nombre": "Sebastián Villa",
-    "dorsal": "22",
+    "nombre": "Leonel Flores",
+    "dorsal": "19",
     "puesto": "LF",
-    "salio": true
+    "salio": false
    },
    {
     "nombre": "Alan Velasco",
@@ -795,50 +795,32 @@
   ],
   "suplentes": [
    {
-    "nombre": "Matías Satas",
-    "dorsal": "46",
+    "nombre": "Leandro Paredes",
+    "dorsal": "5",
     "puesto": "SUB",
     "entro": false
    },
    {
-    "nombre": "Enner Valencia",
-    "dorsal": "13",
+    "nombre": "Lautaro Blanco",
+    "dorsal": "3",
     "puesto": "SUB",
     "entro": true
    },
    {
-    "nombre": "William Alarcón",
-    "dorsal": "15",
+    "nombre": "Facundo Herrera",
+    "dorsal": "42",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Sebastián Villa",
+    "dorsal": "22",
     "puesto": "SUB",
     "entro": false
    },
    {
-    "nombre": "Jorge Figal",
-    "dorsal": "4",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Ángel Romero",
-    "dorsal": "11",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Dylan Gorosito",
-    "dorsal": "24",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Marco Pellegrino",
-    "dorsal": "26",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Kevin Zenón",
-    "dorsal": "21",
+    "nombre": "Lautaro Di Lollo",
+    "dorsal": "2",
     "puesto": "SUB",
     "entro": true
    },
@@ -849,8 +831,14 @@
     "entro": true
    },
    {
-    "nombre": "Camilo Rey",
-    "dorsal": "23",
+    "nombre": "Miguel Merentiel",
+    "dorsal": "16",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Lautaro Facundo Bianco",
+    "dorsal": "40",
     "puesto": "SUB",
     "entro": false
    },
@@ -861,10 +849,22 @@
     "entro": false
    },
    {
-    "nombre": "Leonel Flores",
-    "dorsal": "19",
+    "nombre": "Milton Gimenez",
+    "dorsal": "9",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "William Alarcón",
+    "dorsal": "15",
     "puesto": "SUB",
     "entro": true
+   },
+   {
+    "nombre": "Ángel Romero",
+    "dorsal": "11",
+    "puesto": "SUB",
+    "entro": false
    }
   ]
  }

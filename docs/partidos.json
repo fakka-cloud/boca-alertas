@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-05 11:19",
+ "actualizado": "2026-09-06 11:42",
  "partidos": [
   {
    "id": "401848163",
@@ -693,10 +693,10 @@
    "estadio": "Estadio Víctor Antonio Legrotaglie",
    "ciudad": "Mendoza",
    "torneo": "Liga Profesional Clausura",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 2,
+   "goles_visitante": 2
   },
   {
    "id": "401912542",
