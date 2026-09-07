@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-06 11:42",
+ "actualizado": "2026-09-07 09:33",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -482,6 +482,18 @@
    "rojas": 0
   },
   {
+   "nombre": "Lautaro Facundo Bianco",
+   "dorsal": "40",
+   "puesto": "Delanteros",
+   "edad": null,
+   "pais": "",
+   "pj": 0,
+   "goles": 0,
+   "asistencias": 0,
+   "amarillas": 0,
+   "rojas": 0
+  },
+  {
    "nombre": "Leonel Flores",
    "dorsal": "44",
    "puesto": "Delanteros",
@@ -564,18 +576,6 @@
    "asistencias": 0,
    "amarillas": 0,
    "rojas": 0
-  },
-  {
-   "nombre": "Lautaro Facundo Bianco",
-   "dorsal": "99",
-   "puesto": "Delanteros",
-   "edad": null,
-   "pais": "",
-   "pj": 0,
-   "goles": 0,
-   "asistencias": 0,
-   "amarillas": 0,
-   "rojas": 0
   }
  ],
  "tabla": {
@@ -612,22 +612,31 @@
     "puesto": 4,
     "equipo": "Def. y Jus.",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
-    "pj": "7",
-    "dif": "+1",
+    "pj": "8",
+    "dif": "0",
     "pts": "14",
     "es_boca": false
    },
    {
     "puesto": 5,
-    "equipo": "Newell's",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-    "pj": "7",
-    "dif": "+2",
-    "pts": "11",
+    "equipo": "Independiente",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+    "pj": "8",
+    "dif": "+1",
+    "pts": "13",
     "es_boca": false
    },
    {
     "puesto": 6,
+    "equipo": "Newell's",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+    "pj": "8",
+    "dif": "+2",
+    "pts": "12",
+    "es_boca": false
+   },
+   {
+    "puesto": 7,
     "equipo": "Boca ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
     "pj": "8",
@@ -636,7 +645,7 @@
     "es_boca": true
    },
    {
-    "puesto": 7,
+    "puesto": 8,
     "equipo": "Unión (SF)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
     "pj": "7",
@@ -645,16 +654,16 @@
     "es_boca": false
    },
    {
-    "puesto": 8,
-    "equipo": "Independiente",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-    "pj": "7",
+    "puesto": 9,
+    "equipo": "Lanús ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+    "pj": "8",
     "dif": "0",
     "pts": "10",
     "es_boca": false
    },
    {
-    "puesto": 9,
+    "puesto": 10,
     "equipo": "San Lorenzo ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
     "pj": "8",
@@ -663,7 +672,7 @@
     "es_boca": false
    },
    {
-    "puesto": 10,
+    "puesto": 11,
     "equipo": "Riestra",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
     "pj": "8",
@@ -672,21 +681,12 @@
     "es_boca": false
    },
    {
-    "puesto": 11,
+    "puesto": 12,
     "equipo": "Platense",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
     "pj": "8",
     "dif": "-4",
     "pts": "9",
-    "es_boca": false
-   },
-   {
-    "puesto": 12,
-    "equipo": "Lanús ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-    "pj": "7",
-    "dif": "-1",
-    "pts": "7",
     "es_boca": false
    },
    {
@@ -702,8 +702,8 @@
     "puesto": 14,
     "equipo": "C. Córdoba (SE)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
-    "pj": "7",
-    "dif": "-3",
+    "pj": "8",
+    "dif": "-4",
     "pts": "7",
     "es_boca": false
    },
