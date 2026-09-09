@@ -7,7 +7,8 @@ cd "$(dirname "$0")" || exit 1
   git pull --rebase --quiet
   /usr/bin/python3 traer_partidos.py
   /usr/bin/python3 traer_plantel.py
+  /usr/bin/python3 traer_grupos.py
   /usr/bin/python3 avisar.py
-  git add docs/partidos.json docs/plantel.json avisados.json
+  git add docs/partidos.json docs/plantel.json docs/grupos.json avisados.json
   git diff --staged --quiet || { git commit -m "partidos al $(date '+%d/%m')"; git push origin main; }
 } >> registro.log 2>&1

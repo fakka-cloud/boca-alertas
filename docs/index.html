@@ -103,6 +103,13 @@ footer{text-align:center;color:var(--tenue);font-size:11px;margin-top:28px;line-
 .tabla .num{width:32px;text-align:center;flex:none;font-size:13px;color:var(--tenue)}
 .tabla .pts{width:32px;text-align:center;flex:none;font-weight:800}
 .nota{font-size:11px;color:var(--tenue);text-align:center;margin-top:12px;line-height:1.6}
+
+.copa{margin-top:20px}
+.copa .tit{font-size:15px;font-weight:800;margin-bottom:8px}
+.fase-card{background:var(--tarjeta);border:1px solid var(--borde);border-radius:18px;padding:14px 16px;display:flex;justify-content:space-between;align-items:center}
+.fase-card .fase{font-weight:800;color:var(--oro)}
+.tabla .eq .nota{font-size:0;flex:none}
+.tabla .eq .nota:not(:empty){font-size:10px;color:var(--oro);width:16px;text-align:center;margin:0}
 </style>
 </head>
 <body>
@@ -128,7 +135,7 @@ footer{text-align:center;color:var(--tenue);font-size:11px;margin-top:28px;line-
 const MESES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
 const DIAS = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
 const SOLAPAS = ["proximos","resultados","plantel","tabla"];
-let datos = {partidos: []}, club = null, solapa = "proximos";
+let datos = {partidos: []}, club = null, grupos = [], solapa = "proximos";
 
 const hoyAR = () => new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
 const aFecha = p => new Date(`${p.fecha}T${p.hora}:00-03:00`);
@@ -253,12 +260,35 @@ function pintarTabla() {
       <div class="num">${e.dif}</div>
       <div class="pts">${e.pts}</div>
     </div>`).join("");
-  return `<div class="dia">${club.tabla.zona}</div>
+  let html = `<div class="dia">${club.tabla.zona}</div>
     <div class="tabla">
       <div class="cab"><div class="pos">#</div><div style="width:20px"></div>
         <div class="nom">Equipo</div><div class="num">PJ</div><div class="num">DIF</div><div class="pts">PTS</div></div>
       ${filas}
     </div>`;
+  html += grupos.map(pintarCopa).join("");
+  return html;
+}
+
+function pintarCopa(g) {
+  if (g.tipo === "fase") {
+    return `<div class="copa"><div class="tit">${g.torneo}</div>
+      <div class="fase-card"><span>Instancia actual</span><span class="fase">${g.fase}</span></div></div>`;
+  }
+  const filas = g.filas.map((e, i) => `<div class="eq ${e.es_boca ? "boca" : ""}">
+      <div class="pos">${i + 1}</div>
+      <div class="nom">${e.equipo}</div>
+      <div class="num">${e.pj}</div>
+      <div class="num">${e.dg}</div>
+      <div class="pts">${e.pts}</div>
+      <div class="nota">${e.nota || ""}</div>
+    </div>`).join("");
+  return `<div class="copa"><div class="tit">${g.torneo} · ${g.nombre_grupo}</div>
+    <div class="tabla">
+      <div class="cab"><div class="pos">#</div>
+        <div class="nom">Equipo</div><div class="num">PJ</div><div class="num">DIF</div><div class="pts">PTS</div></div>
+      ${filas}
+    </div></div>`;
 }
 
 /* ---------- ---------- */
@@ -294,6 +324,11 @@ SOLAPAS.forEach(s => { document.getElementById("btn-" + s).onclick = () => { sol
 fetch("plantel.json?v=" + Date.now()).then(r => r.json()).then(d => {
   club = d;
   if (solapa === "plantel" || solapa === "tabla") pintar();
+}).catch(() => {});
+
+fetch("grupos.json?v=" + Date.now()).then(r => r.json()).then(d => {
+  grupos = d.grupos || [];
+  if (solapa === "tabla") pintar();
 }).catch(() => {});
 
 fetch("partidos.json?v=" + Date.now()).then(r => r.json()).then(d => {

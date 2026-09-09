@@ -1,0 +1,73 @@
+{
+  "grupos": [
+    {
+      "torneo": "Copa Argentina",
+      "tipo": "fase",
+      "fase": "Ronda de 32"
+    },
+    {
+      "torneo": "Copa Libertadores",
+      "tipo": "grupo",
+      "nombre_grupo": "Grupo D",
+      "filas": [
+        {
+          "equipo": "Universidad Católica",
+          "es_boca": false,
+          "pj": "6",
+          "pg": "4",
+          "pe": "1",
+          "pp": "1",
+          "gf": "8",
+          "gc": "4",
+          "dg": "+4",
+          "pts": "13",
+          "nota": ""
+        },
+        {
+          "equipo": "Cruzeiro",
+          "es_boca": false,
+          "pj": "6",
+          "pg": "3",
+          "pe": "2",
+          "pp": "1",
+          "gf": "8",
+          "gc": "3",
+          "dg": "+5",
+          "pts": "11",
+          "nota": ""
+        },
+        {
+          "equipo": "Boca Juniors",
+          "es_boca": true,
+          "pj": "6",
+          "pg": "2",
+          "pe": "1",
+          "pp": "3",
+          "gf": "6",
+          "gc": "5",
+          "dg": "+1",
+          "pts": "7",
+          "nota": ""
+        },
+        {
+          "equipo": "Barcelona SC",
+          "es_boca": false,
+          "pj": "6",
+          "pg": "1",
+          "pe": "0",
+          "pp": "5",
+          "gf": "2",
+          "gc": "12",
+          "dg": "-10",
+          "pts": "3",
+          "nota": ""
+        }
+      ]
+    },
+    {
+      "torneo": "Copa Sudamericana",
+      "tipo": "fase",
+      "fase": "Cuartos de Final"
+    }
+  ]
+}

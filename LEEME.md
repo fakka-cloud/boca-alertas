@@ -21,6 +21,7 @@ y amistosos.
 |---|---|
 | `traer_partidos.py` | baja los partidos de ESPN y los guarda en `docs/partidos.json` |
 | `traer_plantel.py` | baja el plantel, las estadísticas, la tabla y el último equipo → `docs/plantel.json` |
+| `traer_grupos.py` | baja la fase de grupos y/o la instancia de playoffs de las copas que juega Boca → `docs/grupos.json` |
 | `avisar.py` | si Boca juega hoy, manda el mail |
 | `correr.sh` | hace todo seguido (lo que ejecuta la Mac a las 9) |
 | `docs/index.html` | la app |
@@ -32,7 +33,9 @@ La app tiene cuatro solapas:
 - **Plantel**: goleador, asistidor y amonestado del año; el equipo del último partido
   (formación, titulares y suplentes, con ↑ el que entró y ↓ el que salió) y todo el
   plantel por puesto con partidos jugados, goles y asistencias.
-- **Tabla**: las posiciones de la zona de Boca, con Boca resaltado.
+- **Tabla**: las posiciones de la zona de Boca (con Boca resaltado), y debajo la fase de
+  grupos y/o la instancia de playoffs (octavos, cuartos, etc.) de las copas que esté
+  jugando Boca (Copa Argentina, Libertadores, Sudamericana, etc.).
 
 *Lesionados* y *cedidos a préstamo* no están: la API gratuita de ESPN no los publica
 para el fútbol argentino.
