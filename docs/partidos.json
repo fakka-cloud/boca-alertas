@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-08 12:44",
+ "actualizado": "2026-09-09 12:40",
  "partidos": [
   {
    "id": "401848163",
@@ -710,10 +710,10 @@
    "estadio": "Alberto José Armando (La Bombonera)",
    "ciudad": "Buenos Aires",
    "torneo": "Copa Sudamericana",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 1,
+   "goles_visitante": 0
   },
   {
    "id": "401841557",
