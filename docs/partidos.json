@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-11 12:37",
+ "actualizado": "2026-09-12 11:43",
  "partidos": [
   {
    "id": "401848163",
@@ -727,10 +727,10 @@
    "estadio": "Alberto José Armando (La Bombonera)",
    "ciudad": "Buenos Aires",
    "torneo": "Liga Profesional Clausura",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 3,
+   "goles_visitante": 1
   },
   {
    "id": "401912524",
