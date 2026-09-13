@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-12 11:43",
+ "actualizado": "2026-09-13 12:23",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -618,8 +618,8 @@
     "puesto": 6,
     "equipo": "Unión (SF)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
-    "pj": "8",
-    "dif": "+3",
+    "pj": "9",
+    "dif": "+2",
     "pts": "13",
     "es_boca": false
    },
@@ -643,6 +643,15 @@
    },
    {
     "puesto": 9,
+    "equipo": "Estudiantes",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+    "pj": "9",
+    "dif": "0",
+    "pts": "10",
+    "es_boca": false
+   },
+   {
+    "puesto": 10,
     "equipo": "Lanús ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
     "pj": "8",
@@ -651,7 +660,7 @@
     "es_boca": false
    },
    {
-    "puesto": 10,
+    "puesto": 11,
     "equipo": "San Lorenzo ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
     "pj": "8",
@@ -660,7 +669,7 @@
     "es_boca": false
    },
    {
-    "puesto": 11,
+    "puesto": 12,
     "equipo": "Riestra",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
     "pj": "8",
@@ -669,39 +678,30 @@
     "es_boca": false
    },
    {
-    "puesto": 12,
+    "puesto": 13,
     "equipo": "Platense",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-    "pj": "8",
-    "dif": "-4",
+    "pj": "9",
+    "dif": "-5",
     "pts": "9",
     "es_boca": false
    },
    {
-    "puesto": 13,
-    "equipo": "Estudiantes",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-    "pj": "8",
-    "dif": "-1",
-    "pts": "7",
+    "puesto": 14,
+    "equipo": "Talleres ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
+    "pj": "9",
+    "dif": "-4",
+    "pts": "8",
     "es_boca": false
    },
    {
-    "puesto": 14,
+    "puesto": 15,
     "equipo": "C. Córdoba (SE)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
     "pj": "9",
     "dif": "-6",
     "pts": "7",
-    "es_boca": false
-   },
-   {
-    "puesto": 15,
-    "equipo": "Talleres ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-    "pj": "8",
-    "dif": "-5",
-    "pts": "5",
     "es_boca": false
    }
   ]
