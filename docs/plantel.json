@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-13 12:23",
+ "actualizado": "2026-09-14 14:19",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -616,6 +616,15 @@
    },
    {
     "puesto": 6,
+    "equipo": "Independiente",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+    "pj": "9",
+    "dif": "+1",
+    "pts": "14",
+    "es_boca": false
+   },
+   {
+    "puesto": 7,
     "equipo": "Unión (SF)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
     "pj": "9",
@@ -624,7 +633,7 @@
     "es_boca": false
    },
    {
-    "puesto": 7,
+    "puesto": 8,
     "equipo": "Newell's",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
     "pj": "9",
@@ -633,16 +642,16 @@
     "es_boca": false
    },
    {
-    "puesto": 8,
-    "equipo": "Independiente",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-    "pj": "8",
-    "dif": "+1",
-    "pts": "13",
+    "puesto": 9,
+    "equipo": "San Lorenzo ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
+    "pj": "9",
+    "dif": "-2",
+    "pts": "11",
     "es_boca": false
    },
    {
-    "puesto": 9,
+    "puesto": 10,
     "equipo": "Estudiantes",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
     "pj": "9",
@@ -651,20 +660,11 @@
     "es_boca": false
    },
    {
-    "puesto": 10,
+    "puesto": 11,
     "equipo": "Lanús ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
     "pj": "8",
     "dif": "0",
-    "pts": "10",
-    "es_boca": false
-   },
-   {
-    "puesto": 11,
-    "equipo": "San Lorenzo ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
-    "pj": "8",
-    "dif": "-2",
     "pts": "10",
     "es_boca": false
    },
