@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-15 12:58",
+ "actualizado": "2026-09-16 12:51",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -707,28 +707,28 @@
   ]
  },
  "ultimo": {
-  "rival": "Central Córdoba (Santiago del Estero)",
-  "resultado": "3-1",
-  "gano": true,
+  "rival": "São Paulo",
+  "resultado": "1-1",
+  "gano": false,
   "perdio": false,
-  "fecha": "11/09",
-  "formacion": "4-2-3-1",
+  "fecha": "15/09",
+  "formacion": "4-3-3",
   "titulares": [
    {
-    "nombre": "Leandro Brey",
-    "dorsal": "12",
+    "nombre": "Álvaro Montero",
+    "dorsal": "1",
     "puesto": "G",
     "salio": false
    },
    {
-    "nombre": "Marco Pellegrino",
-    "dorsal": "26",
+    "nombre": "Facundo Herrera",
+    "dorsal": "42",
     "puesto": "CD-L",
     "salio": false
    },
    {
-    "nombre": "Jorge Figal",
-    "dorsal": "4",
+    "nombre": "Lautaro Di Lollo",
+    "dorsal": "2",
     "puesto": "CD-R",
     "salio": false
    },
@@ -736,115 +736,79 @@
     "nombre": "Lautaro Blanco",
     "dorsal": "3",
     "puesto": "LB",
-    "salio": true
+    "salio": false
    },
    {
-    "nombre": "Dylan Gorosito",
-    "dorsal": "24",
+    "nombre": "Leandro Lozano",
+    "dorsal": "17",
     "puesto": "RB",
     "salio": false
    },
    {
-    "nombre": "Carlos Palacios",
-    "dorsal": "7",
-    "puesto": "AM",
+    "nombre": "Leandro Paredes",
+    "dorsal": "5",
+    "puesto": "CM",
     "salio": false
    },
    {
-    "nombre": "William Alarcón",
-    "dorsal": "15",
+    "nombre": "Milton Delgado",
+    "dorsal": "18",
     "puesto": "LM",
-    "salio": false
-   },
-   {
-    "nombre": "Tomás Belmonte",
-    "dorsal": "8",
-    "puesto": "RM",
     "salio": true
    },
    {
-    "nombre": "Enner Valencia",
-    "dorsal": "13",
+    "nombre": "Santiago Ascacibar",
+    "dorsal": "25",
+    "puesto": "RM",
+    "salio": false
+   },
+   {
+    "nombre": "Miguel Merentiel",
+    "dorsal": "16",
     "puesto": "F",
     "salio": true
    },
    {
-    "nombre": "Sebastián Villa",
-    "dorsal": "22",
-    "puesto": "AM-L",
-    "salio": false
+    "nombre": "Alan Velasco",
+    "dorsal": "20",
+    "puesto": "LF",
+    "salio": true
    },
    {
-    "nombre": "Ángel Romero",
-    "dorsal": "11",
-    "puesto": "AM-R",
+    "nombre": "Leonel Flores",
+    "dorsal": "19",
+    "puesto": "RF",
     "salio": true
    }
   ],
   "suplentes": [
    {
-    "nombre": "Rodrigo Bacidalupe",
-    "dorsal": "44",
+    "nombre": "William Alarcón",
+    "dorsal": "15",
     "puesto": "SUB",
-    "entro": true
+    "entro": false
    },
    {
-    "nombre": "Matías Satas",
-    "dorsal": "46",
+    "nombre": "Carlos Palacios",
+    "dorsal": "7",
     "puesto": "SUB",
-    "entro": true
+    "entro": false
    },
    {
-    "nombre": "Javier García",
+    "nombre": "Enner Valencia",
     "dorsal": "30",
     "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Facundo Herrera",
-    "dorsal": "42",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Leandro Paredes",
-    "dorsal": "5",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Leonel Flores",
-    "dorsal": "19",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Leandro Lozano",
-    "dorsal": "17",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Alan Velasco",
-    "dorsal": "20",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Miguel Merentiel",
-    "dorsal": "16",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Santiago Ascacibar",
-    "dorsal": "25",
-    "puesto": "SUB",
     "entro": true
    },
    {
-    "nombre": "Lautaro Di Lollo",
-    "dorsal": "2",
+    "nombre": "Marco Pellegrino",
+    "dorsal": "26",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Jorge Figal",
+    "dorsal": "4",
     "puesto": "SUB",
     "entro": false
    },
@@ -852,7 +816,43 @@
     "nombre": "Milton Gimenez",
     "dorsal": "9",
     "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Malcom Braida",
+    "dorsal": "27",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Sebastián Villa",
+    "dorsal": "22",
+    "puesto": "SUB",
     "entro": true
+   },
+   {
+    "nombre": "Ángel Romero",
+    "dorsal": "11",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Leandro Brey",
+    "dorsal": "12",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Tomás Belmonte",
+    "dorsal": "8",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Dylan Gorosito",
+    "dorsal": "24",
+    "puesto": "SUB",
+    "entro": false
    }
   ]
  }
