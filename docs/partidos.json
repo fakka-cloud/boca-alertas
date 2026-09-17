@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-16 12:51",
+ "actualizado": "2026-09-17 12:57",
  "partidos": [
   {
    "id": "401848163",
@@ -818,6 +818,23 @@
    "goles_visitante": null
   },
   {
+   "id": "401913958",
+   "fecha": "2026-10-14",
+   "hora": "15:00",
+   "local": "Boca Juniors",
+   "visitante": "Vasco da Gama",
+   "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "de_local": true,
+   "estadio": "A confirmar",
+   "ciudad": "",
+   "torneo": "Copa Sudamericana",
+   "jugado": false,
+   "estado": "Scheduled",
+   "goles_local": null,
+   "goles_visitante": null
+  },
+  {
    "id": "401841627",
    "fecha": "2026-10-18",
    "hora": "15:00",
@@ -829,6 +846,23 @@
    "estadio": "Alberto José Armando (La Bombonera)",
    "ciudad": "Buenos Aires",
    "torneo": "Liga Profesional Clausura",
+   "jugado": false,
+   "estado": "Scheduled",
+   "goles_local": null,
+   "goles_visitante": null
+  },
+  {
+   "id": "401913957",
+   "fecha": "2026-10-21",
+   "hora": "15:00",
+   "local": "Vasco da Gama",
+   "visitante": "Boca Juniors",
+   "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "de_local": false,
+   "estadio": "A confirmar",
+   "ciudad": "",
+   "torneo": "Copa Sudamericana",
    "jugado": false,
    "estado": "Scheduled",
    "goles_local": null,
