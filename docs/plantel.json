@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-18 12:32",
+ "actualizado": "2026-09-19 12:06",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -580,19 +580,19 @@
    },
    {
     "puesto": 2,
-    "equipo": "Vélez ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-    "pj": "9",
-    "dif": "+5",
-    "pts": "17",
+    "equipo": "Def. y Jus.",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+    "pj": "10",
+    "dif": "+2",
+    "pts": "18",
     "es_boca": false
    },
    {
     "puesto": 3,
-    "equipo": "Def. y Jus.",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+    "equipo": "Vélez ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
     "pj": "9",
-    "dif": "+2",
+    "dif": "+5",
     "pts": "17",
     "es_boca": false
    },
@@ -699,9 +699,9 @@
     "puesto": 15,
     "equipo": "C. Córdoba (SE)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
-    "pj": "9",
+    "pj": "10",
     "dif": "-6",
-    "pts": "7",
+    "pts": "8",
     "es_boca": false
    }
   ]
