@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-19 12:06",
+ "actualizado": "2026-09-20 12:10",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -573,9 +573,9 @@
     "puesto": 1,
     "equipo": "Instituto",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
-    "pj": "9",
-    "dif": "+4",
-    "pts": "19",
+    "pj": "10",
+    "dif": "+6",
+    "pts": "22",
     "es_boca": false
    },
    {
@@ -589,6 +589,15 @@
    },
    {
     "puesto": 3,
+    "equipo": "Gimnasia (M)",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
+    "pj": "10",
+    "dif": "+5",
+    "pts": "17",
+    "es_boca": false
+   },
+   {
+    "puesto": 4,
     "equipo": "Vélez ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
     "pj": "9",
@@ -597,31 +606,22 @@
     "es_boca": false
    },
    {
-    "puesto": 4,
-    "equipo": "Gimnasia (M)",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-    "pj": "9",
-    "dif": "+5",
-    "pts": "16",
+    "puesto": 5,
+    "equipo": "Independiente",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+    "pj": "10",
+    "dif": "+2",
+    "pts": "17",
     "es_boca": false
    },
    {
-    "puesto": 5,
+    "puesto": 6,
     "equipo": "Boca ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
     "pj": "9",
     "dif": "+1",
     "pts": "14",
     "es_boca": true
-   },
-   {
-    "puesto": 6,
-    "equipo": "Independiente",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-    "pj": "9",
-    "dif": "+1",
-    "pts": "14",
-    "es_boca": false
    },
    {
     "puesto": 7,
@@ -634,8 +634,8 @@
    },
    {
     "puesto": 8,
-    "equipo": "Unión (SF)",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
+    "equipo": "Newell's",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
     "pj": "9",
     "dif": "+2",
     "pts": "13",
@@ -643,10 +643,10 @@
    },
    {
     "puesto": 9,
-    "equipo": "Newell's",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-    "pj": "9",
-    "dif": "+2",
+    "equipo": "Unión (SF)",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
+    "pj": "10",
+    "dif": "+1",
     "pts": "13",
     "es_boca": false
    },
@@ -672,9 +672,9 @@
     "puesto": 12,
     "equipo": "Riestra",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
-    "pj": "9",
+    "pj": "10",
     "dif": "-2",
-    "pts": "9",
+    "pts": "10",
     "es_boca": false
    },
    {
@@ -690,8 +690,8 @@
     "puesto": 14,
     "equipo": "Talleres ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-    "pj": "9",
-    "dif": "-4",
+    "pj": "10",
+    "dif": "-6",
     "pts": "8",
     "es_boca": false
    },
