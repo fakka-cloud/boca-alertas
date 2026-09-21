@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-20 12:10",
+ "actualizado": "2026-09-21 14:33",
  "partidos": [
   {
    "id": "401848163",
@@ -761,10 +761,10 @@
    "estadio": "Estadio Pedro Bidegain",
    "ciudad": "Buenos Aires",
    "torneo": "Liga Profesional Clausura",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 0,
+   "goles_visitante": 2
   },
   {
    "id": "401912726",
@@ -819,15 +819,15 @@
   },
   {
    "id": "401913958",
-   "fecha": "2026-10-14",
-   "hora": "15:00",
+   "fecha": "2026-10-13",
+   "hora": "21:30",
    "local": "Boca Juniors",
    "visitante": "Vasco da Gama",
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
    "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "de_local": true,
-   "estadio": "A confirmar",
-   "ciudad": "",
+   "estadio": "Alberto José Armando (La Bombonera)",
+   "ciudad": "Buenos Aires",
    "torneo": "Copa Sudamericana",
    "jugado": false,
    "estado": "Scheduled",
@@ -853,8 +853,8 @@
   },
   {
    "id": "401913957",
-   "fecha": "2026-10-21",
-   "hora": "15:00",
+   "fecha": "2026-10-20",
+   "hora": "21:30",
    "local": "Vasco da Gama",
    "visitante": "Boca Juniors",
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",

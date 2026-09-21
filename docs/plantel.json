@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-20 12:10",
+ "actualizado": "2026-09-21 14:33",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -19,7 +19,7 @@
    "puesto": "Arqueros",
    "edad": 31,
    "pais": "Colombia",
-   "pj": 8,
+   "pj": 9,
    "goles": 0,
    "asistencias": 0,
    "amarillas": 0,
@@ -29,7 +29,7 @@
    "nombre": "Leandro Brey",
    "dorsal": "12",
    "puesto": "Arqueros",
-   "edad": 23,
+   "edad": 24,
    "pais": "Argentina",
    "pj": 1,
    "goles": 0,
@@ -67,10 +67,10 @@
    "puesto": "Defensores",
    "edad": 22,
    "pais": "Argentina",
-   "pj": 7,
+   "pj": 8,
    "goles": 0,
    "asistencias": 0,
-   "amarillas": 0,
+   "amarillas": 1,
    "rojas": 0
   },
   {
@@ -79,9 +79,9 @@
    "puesto": "Defensores",
    "edad": 27,
    "pais": "Argentina",
-   "pj": 9,
+   "pj": 10,
    "goles": 0,
-   "asistencias": 1,
+   "asistencias": 2,
    "amarillas": 2,
    "rojas": 0
   },
@@ -103,10 +103,10 @@
    "puesto": "Defensores",
    "edad": 27,
    "pais": "Uruguay",
-   "pj": 4,
-   "goles": 0,
+   "pj": 5,
+   "goles": 1,
    "asistencias": 0,
-   "amarillas": 0,
+   "amarillas": 1,
    "rojas": 0
   },
   {
@@ -115,7 +115,7 @@
    "puesto": "Defensores",
    "edad": 24,
    "pais": "Argentina",
-   "pj": 6,
+   "pj": 7,
    "goles": 0,
    "asistencias": 0,
    "amarillas": 1,
@@ -139,10 +139,10 @@
    "puesto": "Defensores",
    "edad": 20,
    "pais": "Argentina",
-   "pj": 3,
+   "pj": 4,
    "goles": 0,
    "asistencias": 0,
-   "amarillas": 0,
+   "amarillas": 1,
    "rojas": 0
   },
   {
@@ -199,7 +199,7 @@
    "puesto": "Mediocampistas",
    "edad": 32,
    "pais": "Argentina",
-   "pj": 5,
+   "pj": 6,
    "goles": 0,
    "asistencias": 0,
    "amarillas": 1,
@@ -223,7 +223,7 @@
    "puesto": "Mediocampistas",
    "edad": 26,
    "pais": "Chile",
-   "pj": 2,
+   "pj": 3,
    "goles": 0,
    "asistencias": 1,
    "amarillas": 1,
@@ -247,7 +247,7 @@
    "puesto": "Mediocampistas",
    "edad": 21,
    "pais": "Argentina",
-   "pj": 6,
+   "pj": 7,
    "goles": 0,
    "asistencias": 0,
    "amarillas": 2,
@@ -259,7 +259,7 @@
    "puesto": "Mediocampistas",
    "edad": 24,
    "pais": "Argentina",
-   "pj": 8,
+   "pj": 9,
    "goles": 2,
    "asistencias": 0,
    "amarillas": 1,
@@ -271,7 +271,7 @@
    "puesto": "Mediocampistas",
    "edad": 29,
    "pais": "Argentina",
-   "pj": 8,
+   "pj": 9,
    "goles": 3,
    "asistencias": 2,
    "amarillas": 1,
@@ -295,7 +295,7 @@
    "puesto": "Mediocampistas",
    "edad": 28,
    "pais": "Argentina",
-   "pj": 4,
+   "pj": 5,
    "goles": 1,
    "asistencias": 1,
    "amarillas": 2,
@@ -403,8 +403,8 @@
    "puesto": "Delanteros",
    "edad": 30,
    "pais": "Uruguay",
-   "pj": 7,
-   "goles": 2,
+   "pj": 8,
+   "goles": 3,
    "asistencias": 0,
    "amarillas": 0,
    "rojas": 0
@@ -415,7 +415,7 @@
    "puesto": "Delanteros",
    "edad": 30,
    "pais": "Colombia",
-   "pj": 8,
+   "pj": 9,
    "goles": 0,
    "asistencias": 1,
    "amarillas": 0,
@@ -439,7 +439,7 @@
    "puesto": "Delanteros",
    "edad": 34,
    "pais": "Paraguay",
-   "pj": 2,
+   "pj": 3,
    "goles": 2,
    "asistencias": 0,
    "amarillas": 0,
@@ -487,9 +487,9 @@
    "puesto": "Delanteros",
    "edad": 19,
    "pais": "Argentina",
-   "pj": 8,
+   "pj": 9,
    "goles": 0,
-   "asistencias": 1,
+   "asistencias": 2,
    "amarillas": 2,
    "rojas": 0
   },
@@ -580,6 +580,15 @@
    },
    {
     "puesto": 2,
+    "equipo": "Vélez ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+    "pj": "10",
+    "dif": "+6",
+    "pts": "20",
+    "es_boca": false
+   },
+   {
+    "puesto": 3,
     "equipo": "Def. y Jus.",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
     "pj": "10",
@@ -588,7 +597,7 @@
     "es_boca": false
    },
    {
-    "puesto": 3,
+    "puesto": 4,
     "equipo": "Gimnasia (M)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
     "pj": "10",
@@ -597,16 +606,16 @@
     "es_boca": false
    },
    {
-    "puesto": 4,
-    "equipo": "Vélez ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-    "pj": "9",
-    "dif": "+5",
+    "puesto": 5,
+    "equipo": "Boca ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+    "pj": "10",
+    "dif": "+3",
     "pts": "17",
-    "es_boca": false
+    "es_boca": true
    },
    {
-    "puesto": 5,
+    "puesto": 6,
     "equipo": "Independiente",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
     "pj": "10",
@@ -615,29 +624,20 @@
     "es_boca": false
    },
    {
-    "puesto": 6,
-    "equipo": "Boca ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-    "pj": "9",
-    "dif": "+1",
-    "pts": "14",
-    "es_boca": true
-   },
-   {
     "puesto": 7,
-    "equipo": "Lanús ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-    "pj": "9",
+    "equipo": "Newell's",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+    "pj": "10",
     "dif": "+3",
-    "pts": "13",
+    "pts": "16",
     "es_boca": false
    },
    {
     "puesto": 8,
-    "equipo": "Newell's",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+    "equipo": "Lanús ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
     "pj": "9",
-    "dif": "+2",
+    "dif": "+3",
     "pts": "13",
     "es_boca": false
    },
@@ -654,8 +654,8 @@
     "puesto": 10,
     "equipo": "San Lorenzo ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
-    "pj": "9",
-    "dif": "-2",
+    "pj": "10",
+    "dif": "-4",
     "pts": "11",
     "es_boca": false
    },
@@ -681,8 +681,8 @@
     "puesto": 13,
     "equipo": "Platense",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-    "pj": "9",
-    "dif": "-5",
+    "pj": "10",
+    "dif": "-6",
     "pts": "9",
     "es_boca": false
    },
@@ -707,11 +707,11 @@
   ]
  },
  "ultimo": {
-  "rival": "São Paulo",
-  "resultado": "1-1",
-  "gano": false,
+  "rival": "San Lorenzo",
+  "resultado": "2-0",
+  "gano": true,
   "perdio": false,
-  "fecha": "15/09",
+  "fecha": "20/09",
   "formacion": "4-3-3",
   "titulares": [
    {
@@ -724,7 +724,7 @@
     "nombre": "Facundo Herrera",
     "dorsal": "42",
     "puesto": "CD-L",
-    "salio": false
+    "salio": true
    },
    {
     "nombre": "Lautaro Di Lollo",
@@ -754,13 +754,13 @@
     "nombre": "Milton Delgado",
     "dorsal": "18",
     "puesto": "LM",
-    "salio": true
+    "salio": false
    },
    {
     "nombre": "Santiago Ascacibar",
     "dorsal": "25",
     "puesto": "RM",
-    "salio": false
+    "salio": true
    },
    {
     "nombre": "Miguel Merentiel",
@@ -783,26 +783,26 @@
   ],
   "suplentes": [
    {
-    "nombre": "William Alarcón",
-    "dorsal": "15",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Carlos Palacios",
-    "dorsal": "7",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Enner Valencia",
-    "dorsal": "30",
+    "nombre": "Ángel Romero",
+    "dorsal": "11",
     "puesto": "SUB",
     "entro": true
    },
    {
     "nombre": "Marco Pellegrino",
     "dorsal": "26",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Dylan Gorosito",
+    "dorsal": "24",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "William Alarcón",
+    "dorsal": "15",
     "puesto": "SUB",
     "entro": false
    },
@@ -813,32 +813,14 @@
     "entro": false
    },
    {
+    "nombre": "Rodrigo Bacidalupe",
+    "dorsal": "44",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
     "nombre": "Milton Gimenez",
     "dorsal": "9",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Malcom Braida",
-    "dorsal": "27",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Sebastián Villa",
-    "dorsal": "22",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "Ángel Romero",
-    "dorsal": "11",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "Leandro Brey",
-    "dorsal": "12",
     "puesto": "SUB",
     "entro": false
    },
@@ -849,10 +831,28 @@
     "entro": true
    },
    {
-    "nombre": "Dylan Gorosito",
-    "dorsal": "24",
+    "nombre": "Malcom Braida",
+    "dorsal": "27",
     "puesto": "SUB",
     "entro": false
+   },
+   {
+    "nombre": "Leandro Brey",
+    "dorsal": "12",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Carlos Palacios",
+    "dorsal": "7",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Sebastián Villa",
+    "dorsal": "22",
+    "puesto": "SUB",
+    "entro": true
    }
   ]
  }
