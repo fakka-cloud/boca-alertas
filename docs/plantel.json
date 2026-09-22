@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-21 14:33",
+ "actualizado": "2026-09-22 13:01",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -625,20 +625,20 @@
    },
    {
     "puesto": 7,
-    "equipo": "Newell's",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+    "equipo": "Lanús ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
     "pj": "10",
-    "dif": "+3",
+    "dif": "+4",
     "pts": "16",
     "es_boca": false
    },
    {
     "puesto": 8,
-    "equipo": "Lanús ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-    "pj": "9",
+    "equipo": "Newell's",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+    "pj": "10",
     "dif": "+3",
-    "pts": "13",
+    "pts": "16",
     "es_boca": false
    },
    {
@@ -663,8 +663,8 @@
     "puesto": 11,
     "equipo": "Estudiantes",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-    "pj": "9",
-    "dif": "0",
+    "pj": "10",
+    "dif": "-1",
     "pts": "10",
     "es_boca": false
    },
