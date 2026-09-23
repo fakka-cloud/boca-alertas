@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-22 13:01",
+ "actualizado": "2026-09-23 12:51",
  "partidos": [
   {
    "id": "401848163",
@@ -769,14 +769,14 @@
   {
    "id": "401912726",
    "fecha": "2026-09-27",
-   "hora": "15:00",
+   "hora": "17:00",
    "local": "Racing Club",
    "visitante": "Boca Juniors",
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
    "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
    "de_local": false,
-   "estadio": "A confirmar",
-   "ciudad": "",
+   "estadio": "Gigante de Arroyito",
+   "ciudad": "Rosario",
    "torneo": "Copa Argentina",
    "jugado": false,
    "estado": "Scheduled",
