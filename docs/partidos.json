@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-26 12:27",
+ "actualizado": "2026-09-27 13:07",
  "partidos": [
   {
    "id": "401848163",
@@ -785,8 +785,8 @@
   },
   {
    "id": "401841594",
-   "fecha": "2026-10-04",
-   "hora": "19:15",
+   "fecha": "2026-10-02",
+   "hora": "21:30",
    "local": "Boca Juniors",
    "visitante": "Unión (Santa Fe)",
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
@@ -802,8 +802,8 @@
   },
   {
    "id": "401841607",
-   "fecha": "2026-10-11",
-   "hora": "15:00",
+   "fecha": "2026-10-09",
+   "hora": "19:30",
    "local": "Instituto (Córdoba)",
    "visitante": "Boca Juniors",
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
