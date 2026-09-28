@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27 13:07",
+ "actualizado": "2026-09-28 16:01",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -707,16 +707,16 @@
   ]
  },
  "ultimo": {
-  "rival": "San Lorenzo",
-  "resultado": "2-0",
+  "rival": "Racing Club",
+  "resultado": "3-2",
   "gano": true,
   "perdio": false,
-  "fecha": "20/09",
+  "fecha": "27/09",
   "formacion": "4-3-3",
   "titulares": [
    {
-    "nombre": "Álvaro Montero",
-    "dorsal": "1",
+    "nombre": "Leandro Brey",
+    "dorsal": "12",
     "puesto": "G",
     "salio": false
    },
@@ -766,7 +766,7 @@
     "nombre": "Miguel Merentiel",
     "dorsal": "16",
     "puesto": "F",
-    "salio": true
+    "salio": false
    },
    {
     "nombre": "Alan Velasco",
@@ -783,62 +783,8 @@
   ],
   "suplentes": [
    {
-    "nombre": "Ángel Romero",
-    "dorsal": "11",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "Marco Pellegrino",
-    "dorsal": "26",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "Dylan Gorosito",
-    "dorsal": "24",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "William Alarcón",
-    "dorsal": "15",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Jorge Figal",
-    "dorsal": "4",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Rodrigo Bacidalupe",
-    "dorsal": "44",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
     "nombre": "Milton Gimenez",
     "dorsal": "9",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Tomás Belmonte",
-    "dorsal": "8",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "Malcom Braida",
-    "dorsal": "27",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Leandro Brey",
-    "dorsal": "12",
     "puesto": "SUB",
     "entro": false
    },
@@ -853,6 +799,60 @@
     "dorsal": "22",
     "puesto": "SUB",
     "entro": true
+   },
+   {
+    "nombre": "Dylan Gorosito",
+    "dorsal": "24",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Tomás Belmonte",
+    "dorsal": "8",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Enner Valencia",
+    "dorsal": "13",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "William Alarcón",
+    "dorsal": "15",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Jorge Figal",
+    "dorsal": "4",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Javier García",
+    "dorsal": "30",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Ángel Romero",
+    "dorsal": "11",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Marco Pellegrino",
+    "dorsal": "26",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Malcom Braida",
+    "dorsal": "27",
+    "puesto": "SUB",
+    "entro": false
    }
   ]
  }

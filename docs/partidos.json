@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-27 13:07",
+ "actualizado": "2026-09-28 16:01",
  "partidos": [
   {
    "id": "401848163",
@@ -778,10 +778,10 @@
    "estadio": "Gigante de Arroyito",
    "ciudad": "Rosario",
    "torneo": "Copa Argentina",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 2,
+   "goles_visitante": 3
   },
   {
    "id": "401841594",
@@ -880,6 +880,23 @@
    "estadio": "Estadio Libertadores de América",
    "ciudad": "Avellaneda",
    "torneo": "Liga Profesional Clausura",
+   "jugado": false,
+   "estado": "Scheduled",
+   "goles_local": null,
+   "goles_visitante": null
+  },
+  {
+   "id": "401926286",
+   "fecha": "2026-10-25",
+   "hora": "19:00",
+   "local": "Banfield",
+   "visitante": "Boca Juniors",
+   "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
+   "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "de_local": false,
+   "estadio": "A confirmar",
+   "ciudad": "",
+   "torneo": "Copa Argentina",
    "jugado": false,
    "estado": "Scheduled",
    "goles_local": null,
