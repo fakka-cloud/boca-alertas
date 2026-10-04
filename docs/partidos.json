@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-03 12:30",
+ "actualizado": "2026-10-04 13:14",
  "partidos": [
   {
    "id": "401848163",
@@ -886,23 +886,6 @@
    "goles_visitante": null
   },
   {
-   "id": "401926286",
-   "fecha": "2026-10-25",
-   "hora": "15:00",
-   "local": "Banfield",
-   "visitante": "Boca Juniors",
-   "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
-   "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-   "de_local": false,
-   "estadio": "A confirmar",
-   "ciudad": "",
-   "torneo": "Copa Argentina",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
-  },
-  {
    "id": "401841658",
    "fecha": "2026-11-01",
    "hora": "17:00",
@@ -931,6 +914,23 @@
    "estadio": "Alberto José Armando (La Bombonera)",
    "ciudad": "Buenos Aires",
    "torneo": "Liga Profesional Clausura",
+   "jugado": false,
+   "estado": "Scheduled",
+   "goles_local": null,
+   "goles_visitante": null
+  },
+  {
+   "id": "401926286",
+   "fecha": "2026-11-14",
+   "hora": "17:00",
+   "local": "Banfield",
+   "visitante": "Boca Juniors",
+   "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
+   "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "de_local": false,
+   "estadio": "A confirmar",
+   "ciudad": "",
+   "torneo": "Copa Argentina",
    "jugado": false,
    "estado": "Scheduled",
    "goles_local": null,
