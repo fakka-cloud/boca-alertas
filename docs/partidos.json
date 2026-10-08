@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-07 15:12",
+ "actualizado": "2026-10-08 15:14",
  "partidos": [
   {
    "id": "401848163",
@@ -836,8 +836,8 @@
   },
   {
    "id": "401841627",
-   "fecha": "2026-10-18",
-   "hora": "15:00",
+   "fecha": "2026-10-16",
+   "hora": "21:30",
    "local": "Boca Juniors",
    "visitante": "Talleres (Córdoba)",
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
@@ -871,7 +871,7 @@
   {
    "id": "401841636",
    "fecha": "2026-10-25",
-   "hora": "15:00",
+   "hora": "17:00",
    "local": "Independiente",
    "visitante": "Boca Juniors",
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
@@ -888,7 +888,7 @@
   {
    "id": "401841658",
    "fecha": "2026-11-01",
-   "hora": "17:00",
+   "hora": "15:00",
    "local": "Boca Juniors",
    "visitante": "River Plate",
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
