@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-09 14:47",
+ "actualizado": "2026-10-10 13:41",
  "partidos": [
   {
    "id": "401848163",
@@ -812,10 +812,10 @@
    "estadio": "Monumental Presidente Perón",
    "ciudad": "Córdoba",
    "torneo": "Liga Profesional Clausura",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 2,
+   "goles_visitante": 2
   },
   {
    "id": "401913958",
