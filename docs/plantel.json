@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-10 13:41",
+ "actualizado": "2026-10-11 14:07",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -645,9 +645,9 @@
     "puesto": 9,
     "equipo": "Estudiantes",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-    "pj": "11",
+    "pj": "12",
     "dif": "+2",
-    "pts": "13",
+    "pts": "14",
     "es_boca": false
    },
    {
@@ -690,9 +690,9 @@
     "puesto": 14,
     "equipo": "C. Córdoba (SE)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
-    "pj": "11",
+    "pj": "12",
     "dif": "-6",
-    "pts": "9",
+    "pts": "10",
     "es_boca": false
    },
    {
