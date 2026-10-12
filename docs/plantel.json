@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-11 14:07",
+ "actualizado": "2026-10-12 17:39",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -607,6 +607,15 @@
    },
    {
     "puesto": 5,
+    "equipo": "Independiente",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+    "pj": "12",
+    "dif": "-1",
+    "pts": "18",
+    "es_boca": false
+   },
+   {
+    "puesto": 6,
     "equipo": "Lanús ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
     "pj": "11",
@@ -615,7 +624,7 @@
     "es_boca": false
    },
    {
-    "puesto": 6,
+    "puesto": 7,
     "equipo": "Newell's",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
     "pj": "11",
@@ -624,20 +633,11 @@
     "es_boca": false
    },
    {
-    "puesto": 7,
+    "puesto": 8,
     "equipo": "Gimnasia (M)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
     "pj": "11",
     "dif": "+2",
-    "pts": "17",
-    "es_boca": false
-   },
-   {
-    "puesto": 8,
-    "equipo": "Independiente",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-    "pj": "11",
-    "dif": "-1",
     "pts": "17",
     "es_boca": false
    },
@@ -652,6 +652,15 @@
    },
    {
     "puesto": 10,
+    "equipo": "San Lorenzo ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
+    "pj": "12",
+    "dif": "-6",
+    "pts": "14",
+    "es_boca": false
+   },
+   {
+    "puesto": 11,
     "equipo": "Unión (SF)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
     "pj": "12",
@@ -660,20 +669,11 @@
     "es_boca": false
    },
    {
-    "puesto": 11,
+    "puesto": 12,
     "equipo": "Riestra",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
-    "pj": "11",
-    "dif": "-2",
-    "pts": "11",
-    "es_boca": false
-   },
-   {
-    "puesto": 12,
-    "equipo": "San Lorenzo ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
-    "pj": "11",
-    "dif": "-7",
+    "pj": "12",
+    "dif": "-3",
     "pts": "11",
     "es_boca": false
    },
@@ -681,9 +681,9 @@
     "puesto": 13,
     "equipo": "Platense",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-    "pj": "11",
+    "pj": "12",
     "dif": "-6",
-    "pts": "10",
+    "pts": "11",
     "es_boca": false
    },
    {
@@ -699,9 +699,9 @@
     "puesto": 15,
     "equipo": "Talleres ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-    "pj": "11",
+    "pj": "12",
     "dif": "-7",
-    "pts": "8",
+    "pts": "9",
     "es_boca": false
    }
   ]
