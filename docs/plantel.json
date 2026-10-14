@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13 15:42",
+ "actualizado": "2026-10-14 13:15",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -707,11 +707,11 @@
   ]
  },
  "ultimo": {
-  "rival": "Instituto (Córdoba)",
-  "resultado": "2-2",
+  "rival": "Vasco da Gama",
+  "resultado": "0-1",
   "gano": false,
-  "perdio": false,
-  "fecha": "09/10",
+  "perdio": true,
+  "fecha": "13/10",
   "formacion": "4-2-3-1",
   "titulares": [
    {
@@ -721,8 +721,8 @@
     "salio": false
    },
    {
-    "nombre": "Marco Pellegrino",
-    "dorsal": "26",
+    "nombre": "Facundo Herrera",
+    "dorsal": "42",
     "puesto": "CD-L",
     "salio": false
    },
@@ -739,8 +739,8 @@
     "salio": false
    },
    {
-    "nombre": "Malcom Braida",
-    "dorsal": "27",
+    "nombre": "Leandro Lozano",
+    "dorsal": "17",
     "puesto": "RB",
     "salio": false
    },
@@ -748,46 +748,40 @@
     "nombre": "Carlos Palacios",
     "dorsal": "7",
     "puesto": "AM",
-    "salio": false
-   },
-   {
-    "nombre": "Milton Delgado",
-    "dorsal": "18",
-    "puesto": "LM",
     "salio": true
    },
    {
     "nombre": "William Alarcón",
     "dorsal": "15",
+    "puesto": "LM",
+    "salio": true
+   },
+   {
+    "nombre": "Milton Delgado",
+    "dorsal": "18",
     "puesto": "RM",
     "salio": false
    },
    {
     "nombre": "Enner Valencia",
-    "dorsal": "13",
+    "dorsal": "30",
     "puesto": "F",
-    "salio": true
-   },
-   {
-    "nombre": "Sebastián Villa",
-    "dorsal": "22",
-    "puesto": "AM-L",
-    "salio": true
+    "salio": false
    },
    {
     "nombre": "Leonel Flores",
     "dorsal": "19",
-    "puesto": "AM-R",
+    "puesto": "AM-L",
     "salio": false
+   },
+   {
+    "nombre": "Santiago Ascacibar",
+    "dorsal": "25",
+    "puesto": "AM-R",
+    "salio": true
    }
   ],
   "suplentes": [
-   {
-    "nombre": "Miguel Merentiel",
-    "dorsal": "16",
-    "puesto": "SUB",
-    "entro": true
-   },
    {
     "nombre": "Ángel Romero",
     "dorsal": "11",
@@ -795,20 +789,8 @@
     "entro": true
    },
    {
-    "nombre": "Leandro Paredes",
-    "dorsal": "5",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "Facundo Herrera",
-    "dorsal": "42",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Leandro Brey",
-    "dorsal": "12",
+    "nombre": "Marco Pellegrino",
+    "dorsal": "26",
     "puesto": "SUB",
     "entro": false
    },
@@ -819,14 +801,14 @@
     "entro": false
    },
    {
-    "nombre": "Joaquín Ruíz",
-    "dorsal": "53",
+    "nombre": "Miguel Merentiel",
+    "dorsal": "16",
     "puesto": "SUB",
-    "entro": false
+    "entro": true
    },
    {
-    "nombre": "Dylan Gorosito",
-    "dorsal": "24",
+    "nombre": "Rodrigo Battaglia",
+    "dorsal": "6",
     "puesto": "SUB",
     "entro": false
    },
@@ -837,10 +819,22 @@
     "entro": false
    },
    {
-    "nombre": "Santiago Ascacibar",
-    "dorsal": "25",
+    "nombre": "Sebastián Villa",
+    "dorsal": "22",
     "puesto": "SUB",
     "entro": true
+   },
+   {
+    "nombre": "Joaquín Ruíz",
+    "dorsal": "53",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Leandro Brey",
+    "dorsal": "12",
+    "puesto": "SUB",
+    "entro": false
    },
    {
     "nombre": "Jorge Figal",
@@ -849,8 +843,14 @@
     "entro": false
    },
    {
-    "nombre": "Rodrigo Battaglia",
-    "dorsal": "6",
+    "nombre": "Malcom Braida",
+    "dorsal": "27",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Dylan Gorosito",
+    "dorsal": "24",
     "puesto": "SUB",
     "entro": false
    }

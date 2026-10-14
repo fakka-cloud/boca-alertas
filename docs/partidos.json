@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-13 15:42",
+ "actualizado": "2026-10-14 13:15",
  "partidos": [
   {
    "id": "401848163",
@@ -829,10 +829,10 @@
    "estadio": "Alberto José Armando (La Bombonera)",
    "ciudad": "Buenos Aires",
    "torneo": "Copa Sudamericana",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 0,
+   "goles_visitante": 1
   },
   {
    "id": "401841627",
@@ -860,8 +860,8 @@
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
    "de_local": false,
-   "estadio": "A confirmar",
-   "ciudad": "",
+   "estadio": "Estadio do Maracana",
+   "ciudad": "Rio de Janeiro",
    "torneo": "Copa Sudamericana",
    "jugado": false,
    "estado": "Scheduled",
