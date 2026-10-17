@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16 12:51",
+ "actualizado": "2026-10-17 11:44",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -19,7 +19,7 @@
    "puesto": "Arqueros",
    "edad": 31,
    "pais": "Colombia",
-   "pj": 10,
+   "pj": 11,
    "goles": 0,
    "asistencias": 0,
    "amarillas": 0,
@@ -67,7 +67,7 @@
    "puesto": "Defensores",
    "edad": 22,
    "pais": "Argentina",
-   "pj": 10,
+   "pj": 11,
    "goles": 1,
    "asistencias": 0,
    "amarillas": 1,
@@ -79,9 +79,9 @@
    "puesto": "Defensores",
    "edad": 27,
    "pais": "Argentina",
-   "pj": 12,
+   "pj": 13,
    "goles": 0,
-   "asistencias": 3,
+   "asistencias": 4,
    "amarillas": 2,
    "rojas": 0
   },
@@ -103,7 +103,7 @@
    "puesto": "Defensores",
    "edad": 27,
    "pais": "Uruguay",
-   "pj": 6,
+   "pj": 7,
    "goles": 1,
    "asistencias": 0,
    "amarillas": 1,
@@ -127,7 +127,7 @@
    "puesto": "Defensores",
    "edad": 27,
    "pais": "Argentina",
-   "pj": 4,
+   "pj": 5,
    "goles": 0,
    "asistencias": 0,
    "amarillas": 3,
@@ -175,7 +175,7 @@
    "puesto": "Defensores",
    "edad": 20,
    "pais": "Argentina",
-   "pj": 6,
+   "pj": 7,
    "goles": 0,
    "asistencias": 2,
    "amarillas": 1,
@@ -211,7 +211,7 @@
    "puesto": "Mediocampistas",
    "edad": 35,
    "pais": "Argentina",
-   "pj": 0,
+   "pj": 1,
    "goles": 0,
    "asistencias": 0,
    "amarillas": 0,
@@ -223,7 +223,7 @@
    "puesto": "Mediocampistas",
    "edad": 26,
    "pais": "Chile",
-   "pj": 5,
+   "pj": 6,
    "goles": 0,
    "asistencias": 1,
    "amarillas": 1,
@@ -259,10 +259,10 @@
    "puesto": "Mediocampistas",
    "edad": 21,
    "pais": "Argentina",
-   "pj": 9,
+   "pj": 10,
    "goles": 0,
-   "asistencias": 0,
-   "amarillas": 2,
+   "asistencias": 1,
+   "amarillas": 3,
    "rojas": 0
   },
   {
@@ -283,7 +283,7 @@
    "puesto": "Mediocampistas",
    "edad": 29,
    "pais": "Argentina",
-   "pj": 11,
+   "pj": 12,
    "goles": 3,
    "asistencias": 2,
    "amarillas": 2,
@@ -391,7 +391,7 @@
    "puesto": "Delanteros",
    "edad": 36,
    "pais": "Ecuador",
-   "pj": 6,
+   "pj": 7,
    "goles": 2,
    "asistencias": 2,
    "amarillas": 0,
@@ -403,8 +403,8 @@
    "puesto": "Delanteros",
    "edad": 30,
    "pais": "Uruguay",
-   "pj": 10,
-   "goles": 4,
+   "pj": 11,
+   "goles": 5,
    "asistencias": 0,
    "amarillas": 0,
    "rojas": 0
@@ -439,7 +439,7 @@
    "puesto": "Delanteros",
    "edad": 34,
    "pais": "Paraguay",
-   "pj": 5,
+   "pj": 6,
    "goles": 2,
    "asistencias": 0,
    "amarillas": 0,
@@ -487,8 +487,8 @@
    "puesto": "Delanteros",
    "edad": 19,
    "pais": "Argentina",
-   "pj": 11,
-   "goles": 2,
+   "pj": 12,
+   "goles": 3,
    "asistencias": 2,
    "amarillas": 2,
    "rojas": 0
@@ -499,7 +499,7 @@
    "puesto": "Delanteros",
    "edad": 19,
    "pais": "Argentina",
-   "pj": 1,
+   "pj": 2,
    "goles": 0,
    "asistencias": 0,
    "amarillas": 0,
@@ -573,28 +573,28 @@
     "puesto": 1,
     "equipo": "Instituto",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
-    "pj": "12",
-    "dif": "+9",
-    "pts": "26",
+    "pj": "13",
+    "dif": "+10",
+    "pts": "29",
     "es_boca": false
    },
    {
     "puesto": 2,
-    "equipo": "Def. y Jus.",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
-    "pj": "12",
+    "equipo": "Boca ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+    "pj": "13",
     "dif": "+7",
     "pts": "24",
-    "es_boca": false
+    "es_boca": true
    },
    {
     "puesto": 3,
-    "equipo": "Boca ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-    "pj": "12",
+    "equipo": "Def. y Jus.",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+    "pj": "13",
     "dif": "+6",
-    "pts": "21",
-    "es_boca": true
+    "pts": "24",
+    "es_boca": false
    },
    {
     "puesto": 4,
@@ -699,19 +699,19 @@
     "puesto": 15,
     "equipo": "Talleres ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-    "pj": "12",
-    "dif": "-7",
+    "pj": "13",
+    "dif": "-8",
     "pts": "9",
     "es_boca": false
    }
   ]
  },
  "ultimo": {
-  "rival": "Vasco da Gama",
-  "resultado": "0-1",
-  "gano": false,
-  "perdio": true,
-  "fecha": "13/10",
+  "rival": "Talleres (Córdoba)",
+  "resultado": "2-1",
+  "gano": true,
+  "perdio": false,
+  "fecha": "16/10",
   "formacion": "4-2-3-1",
   "titulares": [
    {
@@ -721,8 +721,8 @@
     "salio": false
    },
    {
-    "nombre": "Facundo Herrera",
-    "dorsal": "42",
+    "nombre": "Ayrton Costa",
+    "dorsal": "32",
     "puesto": "CD-L",
     "salio": false
    },
@@ -742,19 +742,19 @@
     "nombre": "Leandro Lozano",
     "dorsal": "17",
     "puesto": "RB",
+    "salio": true
+   },
+   {
+    "nombre": "Santiago Ascacibar",
+    "dorsal": "25",
+    "puesto": "AM",
     "salio": false
    },
    {
-    "nombre": "Carlos Palacios",
-    "dorsal": "7",
-    "puesto": "AM",
-    "salio": true
-   },
-   {
-    "nombre": "William Alarcón",
-    "dorsal": "15",
+    "nombre": "Rodrigo Battaglia",
+    "dorsal": "6",
     "puesto": "LM",
-    "salio": true
+    "salio": false
    },
    {
     "nombre": "Milton Delgado",
@@ -763,82 +763,28 @@
     "salio": false
    },
    {
-    "nombre": "Enner Valencia",
-    "dorsal": "30",
+    "nombre": "Miguel Merentiel",
+    "dorsal": "16",
     "puesto": "F",
-    "salio": false
+    "salio": true
    },
    {
     "nombre": "Leonel Flores",
     "dorsal": "19",
     "puesto": "AM-L",
-    "salio": false
+    "salio": true
    },
    {
-    "nombre": "Santiago Ascacibar",
-    "dorsal": "25",
+    "nombre": "Ángel Romero",
+    "dorsal": "11",
     "puesto": "AM-R",
     "salio": true
    }
   ],
   "suplentes": [
    {
-    "nombre": "Ángel Romero",
-    "dorsal": "11",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
     "nombre": "Marco Pellegrino",
     "dorsal": "26",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Ayrton Costa",
-    "dorsal": "32",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Miguel Merentiel",
-    "dorsal": "16",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "Rodrigo Battaglia",
-    "dorsal": "6",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Milton Gimenez",
-    "dorsal": "9",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Sebastián Villa",
-    "dorsal": "22",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "Joaquín Ruíz",
-    "dorsal": "53",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Leandro Brey",
-    "dorsal": "12",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Jorge Figal",
-    "dorsal": "4",
     "puesto": "SUB",
     "entro": false
    },
@@ -849,10 +795,64 @@
     "entro": false
    },
    {
+    "nombre": "Facundo Herrera",
+    "dorsal": "42",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Jorge Figal",
+    "dorsal": "4",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Joaquín Ruíz",
+    "dorsal": "53",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Milton Gimenez",
+    "dorsal": "9",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Enner Valencia",
+    "dorsal": "13",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Carlos Palacios",
+    "dorsal": "7",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
     "nombre": "Dylan Gorosito",
     "dorsal": "24",
     "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Leandro Brey",
+    "dorsal": "12",
+    "puesto": "SUB",
     "entro": false
+   },
+   {
+    "nombre": "William Alarcón",
+    "dorsal": "15",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Rodrigo Bacidalupe",
+    "dorsal": "44",
+    "puesto": "SUB",
+    "entro": true
    }
   ]
  }
