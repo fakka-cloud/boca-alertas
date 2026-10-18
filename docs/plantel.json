@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17 11:44",
+ "actualizado": "2026-10-18 12:10",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -600,26 +600,26 @@
     "puesto": 4,
     "equipo": "Vélez ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-    "pj": "12",
-    "dif": "+4",
-    "pts": "21",
+    "pj": "13",
+    "dif": "+5",
+    "pts": "24",
     "es_boca": false
    },
    {
     "puesto": 5,
     "equipo": "Lanús ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-    "pj": "12",
-    "dif": "+6",
-    "pts": "20",
+    "pj": "13",
+    "dif": "+7",
+    "pts": "23",
     "es_boca": false
    },
    {
     "puesto": 6,
     "equipo": "Gimnasia (M)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-    "pj": "12",
-    "dif": "+3",
+    "pj": "13",
+    "dif": "+2",
     "pts": "20",
     "es_boca": false
    },
@@ -681,8 +681,8 @@
     "puesto": 13,
     "equipo": "Platense",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-    "pj": "12",
-    "dif": "-6",
+    "pj": "13",
+    "dif": "-7",
     "pts": "11",
     "es_boca": false
    },
