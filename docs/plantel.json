@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18 12:10",
+ "actualizado": "2026-10-19 15:03",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -627,9 +627,9 @@
     "puesto": 7,
     "equipo": "Independiente",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-    "pj": "12",
+    "pj": "13",
     "dif": "-1",
-    "pts": "18",
+    "pts": "19",
     "es_boca": false
    },
    {
@@ -643,19 +643,19 @@
    },
    {
     "puesto": 9,
-    "equipo": "Estudiantes",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-    "pj": "12",
-    "dif": "+2",
-    "pts": "14",
+    "equipo": "San Lorenzo ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
+    "pj": "13",
+    "dif": "-5",
+    "pts": "17",
     "es_boca": false
    },
    {
     "puesto": 10,
-    "equipo": "San Lorenzo ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
-    "pj": "12",
-    "dif": "-6",
+    "equipo": "Estudiantes",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+    "pj": "13",
+    "dif": "+1",
     "pts": "14",
     "es_boca": false
    },

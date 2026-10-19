@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-18 12:10",
+ "actualizado": "2026-10-19 15:03",
  "partidos": [
   {
    "id": "401848163",
@@ -928,8 +928,8 @@
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
    "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
    "de_local": false,
-   "estadio": "A confirmar",
-   "ciudad": "",
+   "estadio": "Malvinas Argentinas (Mendoza)",
+   "ciudad": "Mendoza",
    "torneo": "Copa Argentina",
    "jugado": false,
    "estado": "Scheduled",
