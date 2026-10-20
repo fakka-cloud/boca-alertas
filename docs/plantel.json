@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-19 15:03",
+ "actualizado": "2026-10-20 13:06",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -616,6 +616,15 @@
    },
    {
     "puesto": 6,
+    "equipo": "Newell's",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+    "pj": "13",
+    "dif": "+3",
+    "pts": "20",
+    "es_boca": false
+   },
+   {
+    "puesto": 7,
     "equipo": "Gimnasia (M)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
     "pj": "13",
@@ -624,21 +633,12 @@
     "es_boca": false
    },
    {
-    "puesto": 7,
+    "puesto": 8,
     "equipo": "Independiente",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
     "pj": "13",
     "dif": "-1",
     "pts": "19",
-    "es_boca": false
-   },
-   {
-    "puesto": 8,
-    "equipo": "Newell's",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-    "pj": "12",
-    "dif": "+2",
-    "pts": "17",
     "es_boca": false
    },
    {
@@ -663,18 +663,18 @@
     "puesto": 11,
     "equipo": "Unión (SF)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
-    "pj": "12",
+    "pj": "13",
     "dif": "-4",
-    "pts": "13",
+    "pts": "14",
     "es_boca": false
    },
    {
     "puesto": 12,
     "equipo": "Riestra",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
-    "pj": "12",
+    "pj": "13",
     "dif": "-3",
-    "pts": "11",
+    "pts": "12",
     "es_boca": false
    },
    {
@@ -690,8 +690,8 @@
     "puesto": 14,
     "equipo": "C. Córdoba (SE)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
-    "pj": "12",
-    "dif": "-6",
+    "pj": "13",
+    "dif": "-7",
     "pts": "10",
     "es_boca": false
    },
