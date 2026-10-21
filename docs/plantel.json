@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20 13:06",
+ "actualizado": "2026-10-21 13:22",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -707,12 +707,12 @@
   ]
  },
  "ultimo": {
-  "rival": "Talleres (Córdoba)",
-  "resultado": "2-1",
+  "rival": "Vasco da Gama",
+  "resultado": "3-1",
   "gano": true,
   "perdio": false,
-  "fecha": "16/10",
-  "formacion": "4-2-3-1",
+  "fecha": "20/10",
+  "formacion": "4-3-3",
   "titulares": [
    {
     "nombre": "Álvaro Montero",
@@ -721,8 +721,8 @@
     "salio": false
    },
    {
-    "nombre": "Ayrton Costa",
-    "dorsal": "32",
+    "nombre": "Facundo Herrera",
+    "dorsal": "42",
     "puesto": "CD-L",
     "salio": false
    },
@@ -742,23 +742,23 @@
     "nombre": "Leandro Lozano",
     "dorsal": "17",
     "puesto": "RB",
-    "salio": true
-   },
-   {
-    "nombre": "Santiago Ascacibar",
-    "dorsal": "25",
-    "puesto": "AM",
     "salio": false
    },
    {
     "nombre": "Rodrigo Battaglia",
     "dorsal": "6",
-    "puesto": "LM",
-    "salio": false
+    "puesto": "CM",
+    "salio": true
    },
    {
     "nombre": "Milton Delgado",
     "dorsal": "18",
+    "puesto": "LM",
+    "salio": false
+   },
+   {
+    "nombre": "Santiago Ascacibar",
+    "dorsal": "25",
     "puesto": "RM",
     "salio": false
    },
@@ -771,68 +771,50 @@
    {
     "nombre": "Leonel Flores",
     "dorsal": "19",
-    "puesto": "AM-L",
+    "puesto": "LF",
     "salio": true
    },
    {
-    "nombre": "Ángel Romero",
-    "dorsal": "11",
-    "puesto": "AM-R",
+    "nombre": "Sebastián Villa",
+    "dorsal": "22",
+    "puesto": "RF",
     "salio": true
    }
   ],
   "suplentes": [
    {
-    "nombre": "Marco Pellegrino",
-    "dorsal": "26",
+    "nombre": "Carlos Palacios",
+    "dorsal": "7",
     "puesto": "SUB",
     "entro": false
    },
    {
-    "nombre": "Malcom Braida",
-    "dorsal": "27",
+    "nombre": "Dylan Gorosito",
+    "dorsal": "24",
     "puesto": "SUB",
     "entro": false
    },
    {
-    "nombre": "Facundo Herrera",
-    "dorsal": "42",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Jorge Figal",
-    "dorsal": "4",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Joaquín Ruíz",
-    "dorsal": "53",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Milton Gimenez",
-    "dorsal": "9",
+    "nombre": "Ángel Romero",
+    "dorsal": "11",
     "puesto": "SUB",
     "entro": false
    },
    {
     "nombre": "Enner Valencia",
-    "dorsal": "13",
+    "dorsal": "30",
     "puesto": "SUB",
     "entro": true
    },
    {
-    "nombre": "Carlos Palacios",
-    "dorsal": "7",
+    "nombre": "Alan Velasco",
+    "dorsal": "20",
     "puesto": "SUB",
     "entro": true
    },
    {
-    "nombre": "Dylan Gorosito",
-    "dorsal": "24",
+    "nombre": "Leandro Paredes",
+    "dorsal": "5",
     "puesto": "SUB",
     "entro": true
    },
@@ -849,8 +831,26 @@
     "entro": false
    },
    {
-    "nombre": "Rodrigo Bacidalupe",
-    "dorsal": "44",
+    "nombre": "Joaquín Ruíz",
+    "dorsal": "53",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Malcom Braida",
+    "dorsal": "27",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Jorge Figal",
+    "dorsal": "4",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Ayrton Costa",
+    "dorsal": "32",
     "puesto": "SUB",
     "entro": true
    }

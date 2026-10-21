@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-20 13:06",
+ "actualizado": "2026-10-21 13:22",
  "partidos": [
   {
    "id": "401848163",
@@ -863,10 +863,10 @@
    "estadio": "Estadio do Maracana",
    "ciudad": "Rio de Janeiro",
    "torneo": "Copa Sudamericana",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 1,
+   "goles_visitante": 3
   },
   {
    "id": "401841636",
@@ -931,6 +931,23 @@
    "estadio": "Malvinas Argentinas (Mendoza)",
    "ciudad": "Mendoza",
    "torneo": "Copa Argentina",
+   "jugado": false,
+   "estado": "Scheduled",
+   "goles_local": null,
+   "goles_visitante": null
+  },
+  {
+   "id": "401913961",
+   "fecha": "2026-11-21",
+   "hora": "17:00",
+   "local": "TBD Home",
+   "visitante": "Boca Juniors",
+   "escudo_local": "",
+   "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "de_local": false,
+   "estadio": "Metropolitano Roberto Meléndez",
+   "ciudad": "Barranquilla",
+   "torneo": "Copa Sudamericana",
    "jugado": false,
    "estado": "Scheduled",
    "goles_local": null,
