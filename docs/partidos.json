@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21 13:22",
+ "actualizado": "2026-10-22 13:22",
  "partidos": [
   {
    "id": "401848163",
@@ -940,9 +940,9 @@
    "id": "401913961",
    "fecha": "2026-11-21",
    "hora": "17:00",
-   "local": "TBD Home",
+   "local": "Atlético-MG",
    "visitante": "Boca Juniors",
-   "escudo_local": "",
+   "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
    "de_local": false,
    "estadio": "Metropolitano Roberto Meléndez",
