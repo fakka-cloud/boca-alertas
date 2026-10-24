@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23 13:12",
+ "actualizado": "2026-10-24 12:08",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -627,8 +627,8 @@
     "puesto": 7,
     "equipo": "Gimnasia (M)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-    "pj": "13",
-    "dif": "+2",
+    "pj": "14",
+    "dif": "+1",
     "pts": "20",
     "es_boca": false
    },
@@ -670,20 +670,20 @@
    },
    {
     "puesto": 12,
+    "equipo": "Platense",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+    "pj": "14",
+    "dif": "-6",
+    "pts": "14",
+    "es_boca": false
+   },
+   {
+    "puesto": 13,
     "equipo": "Riestra",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
     "pj": "13",
     "dif": "-3",
     "pts": "12",
-    "es_boca": false
-   },
-   {
-    "puesto": 13,
-    "equipo": "Platense",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-    "pj": "13",
-    "dif": "-7",
-    "pts": "11",
     "es_boca": false
    },
    {
