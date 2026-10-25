@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 12:08",
+ "actualizado": "2026-10-25 12:20",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -580,6 +580,15 @@
    },
    {
     "puesto": 2,
+    "equipo": "Def. y Jus.",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+    "pj": "14",
+    "dif": "+7",
+    "pts": "27",
+    "es_boca": false
+   },
+   {
+    "puesto": 3,
     "equipo": "Boca ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
     "pj": "13",
@@ -588,16 +597,16 @@
     "es_boca": true
    },
    {
-    "puesto": 3,
-    "equipo": "Def. y Jus.",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
-    "pj": "13",
-    "dif": "+6",
+    "puesto": 4,
+    "equipo": "Lanús ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+    "pj": "14",
+    "dif": "+7",
     "pts": "24",
     "es_boca": false
    },
    {
-    "puesto": 4,
+    "puesto": 5,
     "equipo": "Vélez ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
     "pj": "13",
@@ -606,21 +615,12 @@
     "es_boca": false
    },
    {
-    "puesto": 5,
-    "equipo": "Lanús ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-    "pj": "13",
-    "dif": "+7",
-    "pts": "23",
-    "es_boca": false
-   },
-   {
     "puesto": 6,
     "equipo": "Newell's",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-    "pj": "13",
+    "pj": "14",
     "dif": "+3",
-    "pts": "20",
+    "pts": "21",
     "es_boca": false
    },
    {
@@ -645,9 +645,9 @@
     "puesto": 9,
     "equipo": "San Lorenzo ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
-    "pj": "13",
+    "pj": "14",
     "dif": "-5",
-    "pts": "17",
+    "pts": "18",
     "es_boca": false
    },
    {
@@ -699,8 +699,8 @@
     "puesto": 15,
     "equipo": "Talleres ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-    "pj": "13",
-    "dif": "-8",
+    "pj": "14",
+    "dif": "-9",
     "pts": "9",
     "es_boca": false
    }
