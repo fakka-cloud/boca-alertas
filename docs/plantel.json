@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 15:00",
+ "actualizado": "2026-10-27 14:07",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -573,9 +573,9 @@
     "puesto": 1,
     "equipo": "Instituto",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
-    "pj": "13",
-    "dif": "+10",
-    "pts": "29",
+    "pj": "14",
+    "dif": "+11",
+    "pts": "32",
     "es_boca": false
    },
    {
@@ -652,19 +652,19 @@
    },
    {
     "puesto": 10,
-    "equipo": "Estudiantes",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-    "pj": "13",
-    "dif": "+1",
-    "pts": "14",
+    "equipo": "Unión (SF)",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
+    "pj": "14",
+    "dif": "-2",
+    "pts": "17",
     "es_boca": false
    },
    {
     "puesto": 11,
-    "equipo": "Unión (SF)",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
-    "pj": "13",
-    "dif": "-4",
+    "equipo": "Estudiantes",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+    "pj": "14",
+    "dif": "-1",
     "pts": "14",
     "es_boca": false
    },
@@ -681,8 +681,8 @@
     "puesto": 13,
     "equipo": "Riestra",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
-    "pj": "13",
-    "dif": "-3",
+    "pj": "14",
+    "dif": "-4",
     "pts": "12",
     "es_boca": false
    },
