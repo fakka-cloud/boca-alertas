@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 13:36",
+ "actualizado": "2026-11-01 14:27",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -573,18 +573,18 @@
     "puesto": 1,
     "equipo": "Instituto",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
-    "pj": "14",
+    "pj": "15",
     "dif": "+11",
-    "pts": "32",
+    "pts": "33",
     "es_boca": false
    },
    {
     "puesto": 2,
     "equipo": "Vélez ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-    "pj": "14",
+    "pj": "15",
     "dif": "+10",
-    "pts": "27",
+    "pts": "28",
     "es_boca": false
    },
    {
@@ -645,9 +645,9 @@
     "puesto": 9,
     "equipo": "San Lorenzo ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
-    "pj": "14",
+    "pj": "15",
     "dif": "-5",
-    "pts": "18",
+    "pts": "19",
     "es_boca": false
    },
    {
@@ -663,9 +663,9 @@
     "puesto": 11,
     "equipo": "Estudiantes",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-    "pj": "14",
+    "pj": "15",
     "dif": "-1",
-    "pts": "14",
+    "pts": "15",
     "es_boca": false
    },
    {
@@ -679,29 +679,29 @@
    },
    {
     "puesto": 13,
-    "equipo": "Riestra",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
-    "pj": "14",
-    "dif": "-4",
+    "equipo": "Talleres ",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
+    "pj": "15",
+    "dif": "-6",
     "pts": "12",
     "es_boca": false
    },
    {
     "puesto": 14,
+    "equipo": "Riestra",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
+    "pj": "15",
+    "dif": "-7",
+    "pts": "12",
+    "es_boca": false
+   },
+   {
+    "puesto": 15,
     "equipo": "C. Córdoba (SE)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
     "pj": "14",
     "dif": "-12",
     "pts": "10",
-    "es_boca": false
-   },
-   {
-    "puesto": 15,
-    "equipo": "Talleres ",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-    "pj": "14",
-    "dif": "-9",
-    "pts": "9",
     "es_boca": false
    }
   ]
