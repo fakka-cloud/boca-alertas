@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02 18:12",
+ "actualizado": "2026-11-03 15:53",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -600,9 +600,9 @@
     "puesto": 4,
     "equipo": "Def. y Jus.",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
-    "pj": "14",
+    "pj": "15",
     "dif": "+7",
-    "pts": "27",
+    "pts": "28",
     "es_boca": false
    },
    {
@@ -636,9 +636,9 @@
     "puesto": 8,
     "equipo": "Independiente",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-    "pj": "14",
+    "pj": "15",
     "dif": "-2",
-    "pts": "19",
+    "pts": "20",
     "es_boca": false
    },
    {
@@ -661,20 +661,20 @@
    },
    {
     "puesto": 11,
+    "equipo": "Platense",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+    "pj": "15",
+    "dif": "-4",
+    "pts": "17",
+    "es_boca": false
+   },
+   {
+    "puesto": 12,
     "equipo": "Estudiantes",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
     "pj": "15",
     "dif": "-1",
     "pts": "15",
-    "es_boca": false
-   },
-   {
-    "puesto": 12,
-    "equipo": "Platense",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-    "pj": "14",
-    "dif": "-6",
-    "pts": "14",
     "es_boca": false
    },
    {
@@ -699,8 +699,8 @@
     "puesto": 15,
     "equipo": "C. Córdoba (SE)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
-    "pj": "14",
-    "dif": "-12",
+    "pj": "15",
+    "dif": "-14",
     "pts": "10",
     "es_boca": false
    }
