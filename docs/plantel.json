@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07 14:13",
+ "actualizado": "2026-11-08 14:26",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -19,7 +19,7 @@
    "puesto": "Arqueros",
    "edad": 31,
    "pais": "Colombia",
-   "pj": 13,
+   "pj": 14,
    "goles": 0,
    "asistencias": 0,
    "amarillas": 0,
@@ -67,9 +67,9 @@
    "puesto": "Defensores",
    "edad": 22,
    "pais": "Argentina",
-   "pj": 13,
+   "pj": 14,
    "goles": 2,
-   "asistencias": 0,
+   "asistencias": 1,
    "amarillas": 3,
    "rojas": 0
   },
@@ -79,7 +79,7 @@
    "puesto": "Defensores",
    "edad": 27,
    "pais": "Argentina",
-   "pj": 14,
+   "pj": 15,
    "goles": 0,
    "asistencias": 4,
    "amarillas": 3,
@@ -103,7 +103,7 @@
    "puesto": "Defensores",
    "edad": 27,
    "pais": "Uruguay",
-   "pj": 9,
+   "pj": 10,
    "goles": 1,
    "asistencias": 0,
    "amarillas": 1,
@@ -139,7 +139,7 @@
    "puesto": "Defensores",
    "edad": 20,
    "pais": "Argentina",
-   "pj": 7,
+   "pj": 8,
    "goles": 1,
    "asistencias": 0,
    "amarillas": 4,
@@ -199,10 +199,10 @@
    "puesto": "Mediocampistas",
    "edad": 32,
    "pais": "Argentina",
-   "pj": 10,
+   "pj": 11,
    "goles": 0,
    "asistencias": 1,
-   "amarillas": 3,
+   "amarillas": 4,
    "rojas": 0
   },
   {
@@ -235,7 +235,7 @@
    "puesto": "Mediocampistas",
    "edad": 28,
    "pais": "Argentina",
-   "pj": 6,
+   "pj": 7,
    "goles": 1,
    "asistencias": 1,
    "amarillas": 2,
@@ -259,7 +259,7 @@
    "puesto": "Mediocampistas",
    "edad": 21,
    "pais": "Argentina",
-   "pj": 12,
+   "pj": 13,
    "goles": 0,
    "asistencias": 1,
    "amarillas": 4,
@@ -271,7 +271,7 @@
    "puesto": "Mediocampistas",
    "edad": 24,
    "pais": "Argentina",
-   "pj": 12,
+   "pj": 13,
    "goles": 2,
    "asistencias": 0,
    "amarillas": 2,
@@ -283,7 +283,7 @@
    "puesto": "Mediocampistas",
    "edad": 29,
    "pais": "Argentina",
-   "pj": 14,
+   "pj": 15,
    "goles": 3,
    "asistencias": 2,
    "amarillas": 2,
@@ -331,7 +331,7 @@
    "puesto": "Mediocampistas",
    "edad": 19,
    "pais": "Argentina",
-   "pj": 6,
+   "pj": 7,
    "goles": 0,
    "asistencias": 1,
    "amarillas": 0,
@@ -391,8 +391,8 @@
    "puesto": "Delanteros",
    "edad": 37,
    "pais": "Ecuador",
-   "pj": 9,
-   "goles": 2,
+   "pj": 10,
+   "goles": 3,
    "asistencias": 2,
    "amarillas": 1,
    "rojas": 0
@@ -403,7 +403,7 @@
    "puesto": "Delanteros",
    "edad": 30,
    "pais": "Uruguay",
-   "pj": 13,
+   "pj": 14,
    "goles": 5,
    "asistencias": 0,
    "amarillas": 0,
@@ -415,7 +415,7 @@
    "puesto": "Delanteros",
    "edad": 30,
    "pais": "Colombia",
-   "pj": 13,
+   "pj": 14,
    "goles": 0,
    "asistencias": 3,
    "amarillas": 0,
@@ -487,7 +487,7 @@
    "puesto": "Delanteros",
    "edad": 19,
    "pais": "Argentina",
-   "pj": 14,
+   "pj": 15,
    "goles": 3,
    "asistencias": 2,
    "amarillas": 2,
@@ -573,18 +573,18 @@
     "puesto": 1,
     "equipo": "Instituto",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
-    "pj": "15",
+    "pj": "16",
     "dif": "+11",
-    "pts": "33",
+    "pts": "34",
     "es_boca": false
    },
    {
     "puesto": 2,
     "equipo": "Boca ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-    "pj": "15",
-    "dif": "+9",
-    "pts": "30",
+    "pj": "16",
+    "dif": "+10",
+    "pts": "33",
     "es_boca": true
    },
    {
@@ -600,8 +600,8 @@
     "puesto": 4,
     "equipo": "Def. y Jus.",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
-    "pj": "15",
-    "dif": "+7",
+    "pj": "16",
+    "dif": "+6",
     "pts": "28",
     "es_boca": false
    },
@@ -616,6 +616,15 @@
    },
    {
     "puesto": 6,
+    "equipo": "Newell's",
+    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+    "pj": "16",
+    "dif": "+3",
+    "pts": "23",
+    "es_boca": false
+   },
+   {
+    "puesto": 7,
     "equipo": "Independiente",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
     "pj": "16",
@@ -624,21 +633,12 @@
     "es_boca": false
    },
    {
-    "puesto": 7,
-    "equipo": "Newell's",
-    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-    "pj": "15",
-    "dif": "+3",
-    "pts": "22",
-    "es_boca": false
-   },
-   {
     "puesto": 8,
     "equipo": "Gimnasia (M)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-    "pj": "15",
+    "pj": "16",
     "dif": "+1",
-    "pts": "21",
+    "pts": "22",
     "es_boca": false
    },
    {
@@ -672,18 +672,18 @@
     "puesto": 12,
     "equipo": "Estudiantes",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-    "pj": "15",
+    "pj": "16",
     "dif": "-1",
-    "pts": "15",
+    "pts": "16",
     "es_boca": false
    },
    {
     "puesto": 13,
     "equipo": "Talleres ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-    "pj": "15",
+    "pj": "16",
     "dif": "-6",
-    "pts": "12",
+    "pts": "13",
     "es_boca": false
    },
    {
@@ -707,11 +707,11 @@
   ]
  },
  "ultimo": {
-  "rival": "River Plate",
+  "rival": "Defensa y Justicia",
   "resultado": "1-0",
   "gano": true,
   "perdio": false,
-  "fecha": "01/11",
+  "fecha": "07/11",
   "formacion": "4-3-3",
   "titulares": [
    {
@@ -724,7 +724,7 @@
     "nombre": "Facundo Herrera",
     "dorsal": "42",
     "puesto": "CD-L",
-    "salio": true
+    "salio": false
    },
    {
     "nombre": "Lautaro Di Lollo",
@@ -775,30 +775,18 @@
     "salio": true
    },
    {
-    "nombre": "Leonel Flores",
-    "dorsal": "19",
+    "nombre": "Alan Velasco",
+    "dorsal": "20",
     "puesto": "RF",
     "salio": true
    }
   ],
   "suplentes": [
    {
-    "nombre": "Jorge Figal",
-    "dorsal": "4",
+    "nombre": "Marco Pellegrino",
+    "dorsal": "26",
     "puesto": "SUB",
     "entro": false
-   },
-   {
-    "nombre": "Leandro Brey",
-    "dorsal": "12",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Carlos Palacios",
-    "dorsal": "7",
-    "puesto": "SUB",
-    "entro": true
    },
    {
     "nombre": "Enner Valencia",
@@ -807,14 +795,26 @@
     "entro": true
    },
    {
-    "nombre": "Tomás Belmonte",
-    "dorsal": "8",
+    "nombre": "Leandro Brey",
+    "dorsal": "12",
     "puesto": "SUB",
-    "entro": true
+    "entro": false
    },
    {
-    "nombre": "Alan Velasco",
-    "dorsal": "20",
+    "nombre": "Jorge Figal",
+    "dorsal": "4",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Carlos Palacios",
+    "dorsal": "7",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Tomás Aranda",
+    "dorsal": "10",
     "puesto": "SUB",
     "entro": true
    },
@@ -825,22 +825,10 @@
     "entro": false
    },
    {
-    "nombre": "Rodrigo Battaglia",
-    "dorsal": "6",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
     "nombre": "Dylan Gorosito",
     "dorsal": "24",
     "puesto": "SUB",
     "entro": false
-   },
-   {
-    "nombre": "Ayrton Costa",
-    "dorsal": "32",
-    "puesto": "SUB",
-    "entro": true
    },
    {
     "nombre": "Malcom Braida",
@@ -849,8 +837,20 @@
     "entro": false
    },
    {
-    "nombre": "Marco Pellegrino",
-    "dorsal": "26",
+    "nombre": "Tomás Belmonte",
+    "dorsal": "8",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Leonel Flores",
+    "dorsal": "19",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Ayrton Costa",
+    "dorsal": "32",
     "puesto": "SUB",
     "entro": false
    }
