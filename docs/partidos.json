@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14 14:30",
+ "actualizado": "2026-11-15 15:18",
  "partidos": [
   {
    "id": "401848163",
@@ -931,10 +931,10 @@
    "estadio": "Malvinas Argentinas (Mendoza)",
    "ciudad": "Mendoza",
    "torneo": "Copa Argentina",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 0,
+   "goles_visitante": 3
   },
   {
    "id": "401913961",
@@ -965,6 +965,23 @@
    "estadio": "Alberto José Armando (La Bombonera)",
    "ciudad": "Buenos Aires",
    "torneo": "Liga Profesional Clausura",
+   "jugado": false,
+   "estado": "Scheduled",
+   "goles_local": null,
+   "goles_visitante": null
+  },
+  {
+   "id": "401932277",
+   "fecha": "2026-12-02",
+   "hora": "17:00",
+   "local": "Boca Juniors",
+   "visitante": "Platense",
+   "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+   "de_local": true,
+   "estadio": "A confirmar",
+   "ciudad": "",
+   "torneo": "Copa Argentina",
    "jugado": false,
    "estado": "Scheduled",
    "goles_local": null,

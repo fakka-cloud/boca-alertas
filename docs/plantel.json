@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14 14:30",
+ "actualizado": "2026-11-15 15:18",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -365,7 +365,7 @@
    "nombre": "Dante Gonzalez",
    "dorsal": "50",
    "puesto": "Mediocampistas",
-   "edad": 19,
+   "edad": 20,
    "pais": "Argentina",
    "pj": 0,
    "goles": 0,
@@ -707,11 +707,11 @@
   ]
  },
  "ultimo": {
-  "rival": "Defensa y Justicia",
-  "resultado": "1-0",
+  "rival": "Banfield",
+  "resultado": "3-0",
   "gano": true,
   "perdio": false,
-  "fecha": "07/11",
+  "fecha": "14/11",
   "formacion": "4-3-3",
   "titulares": [
    {
@@ -733,10 +733,10 @@
     "salio": false
    },
    {
-    "nombre": "Lautaro Blanco",
-    "dorsal": "3",
+    "nombre": "Malcom Braida",
+    "dorsal": "27",
     "puesto": "LB",
-    "salio": false
+    "salio": true
    },
    {
     "nombre": "Leandro Lozano",
@@ -769,70 +769,22 @@
     "salio": true
    },
    {
-    "nombre": "Sebastián Villa",
-    "dorsal": "22",
+    "nombre": "Alan Velasco",
+    "dorsal": "20",
     "puesto": "LF",
     "salio": true
    },
    {
-    "nombre": "Alan Velasco",
-    "dorsal": "20",
+    "nombre": "Sebastián Villa",
+    "dorsal": "22",
     "puesto": "RF",
     "salio": true
    }
   ],
   "suplentes": [
    {
-    "nombre": "Marco Pellegrino",
-    "dorsal": "26",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Enner Valencia",
-    "dorsal": "13",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "Leandro Brey",
-    "dorsal": "12",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Jorge Figal",
-    "dorsal": "4",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Carlos Palacios",
-    "dorsal": "7",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Tomás Aranda",
-    "dorsal": "10",
-    "puesto": "SUB",
-    "entro": true
-   },
-   {
-    "nombre": "William Alarcón",
-    "dorsal": "15",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
     "nombre": "Dylan Gorosito",
     "dorsal": "24",
-    "puesto": "SUB",
-    "entro": false
-   },
-   {
-    "nombre": "Malcom Braida",
-    "dorsal": "27",
     "puesto": "SUB",
     "entro": false
    },
@@ -843,14 +795,62 @@
     "entro": true
    },
    {
+    "nombre": "Enner Valencia",
+    "dorsal": "13",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Tomás Aranda",
+    "dorsal": "10",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Leandro Brey",
+    "dorsal": "12",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Carlos Palacios",
+    "dorsal": "7",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Ayrton Costa",
+    "dorsal": "32",
+    "puesto": "SUB",
+    "entro": true
+   },
+   {
+    "nombre": "Adam Bareiro",
+    "dorsal": "28",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
     "nombre": "Leonel Flores",
     "dorsal": "19",
     "puesto": "SUB",
     "entro": true
    },
    {
-    "nombre": "Ayrton Costa",
-    "dorsal": "32",
+    "nombre": "Jorge Figal",
+    "dorsal": "4",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Camilo Rey",
+    "dorsal": "23",
+    "puesto": "SUB",
+    "entro": false
+   },
+   {
+    "nombre": "Marco Pellegrino",
+    "dorsal": "26",
     "puesto": "SUB",
     "entro": false
    }
