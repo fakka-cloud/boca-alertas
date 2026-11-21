@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20 16:28",
+ "actualizado": "2026-11-21 15:30",
  "plantel": [
   {
    "nombre": "Agustín Marchesín",
@@ -609,9 +609,9 @@
     "puesto": 5,
     "equipo": "Lanús ",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-    "pj": "15",
+    "pj": "16",
     "dif": "+7",
-    "pts": "25",
+    "pts": "26",
     "es_boca": false
    },
    {
@@ -699,9 +699,9 @@
     "puesto": 15,
     "equipo": "C. Córdoba (SE)",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
-    "pj": "15",
+    "pj": "16",
     "dif": "-14",
-    "pts": "10",
+    "pts": "11",
     "es_boca": false
    }
   ]
