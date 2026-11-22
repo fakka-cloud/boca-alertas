@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21 15:30",
+ "actualizado": "2026-11-22 15:53",
  "partidos": [
   {
    "id": "401848163",
@@ -948,10 +948,10 @@
    "estadio": "Metropolitano Roberto Meléndez",
    "ciudad": "Barranquilla",
    "torneo": "Copa Sudamericana",
-   "jugado": false,
-   "estado": "Scheduled",
-   "goles_local": null,
-   "goles_visitante": null
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 0,
+   "goles_visitante": 2
   },
   {
    "id": "401933757",
