@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23 20:08",
+ "actualizado": "2026-11-24 18:47",
  "partidos": [
   {
    "id": "401848163",
@@ -982,6 +982,40 @@
    "estadio": "A confirmar",
    "ciudad": "",
    "torneo": "Copa Argentina",
+   "jugado": false,
+   "estado": "Scheduled",
+   "goles_local": null,
+   "goles_visitante": null
+  },
+  {
+   "id": "401936498",
+   "fecha": "2027-02-17",
+   "hora": "17:00",
+   "local": "Boca Juniors",
+   "visitante": "TBD Away",
+   "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "escudo_visitante": "",
+   "de_local": true,
+   "estadio": "A confirmar",
+   "ciudad": "",
+   "torneo": "Recopa Sudamericana",
+   "jugado": false,
+   "estado": "Scheduled",
+   "goles_local": null,
+   "goles_visitante": null
+  },
+  {
+   "id": "401936480",
+   "fecha": "2027-02-24",
+   "hora": "17:00",
+   "local": "TBD Home",
+   "visitante": "Boca Juniors",
+   "escudo_local": "",
+   "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "de_local": false,
+   "estadio": "A confirmar",
+   "ciudad": "",
+   "torneo": "Recopa Sudamericana",
    "jugado": false,
    "estado": "Scheduled",
    "goles_local": null,
