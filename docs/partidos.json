@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25 17:54",
+ "actualizado": "2026-11-26 17:45",
  "partidos": [
   {
    "id": "401848163",
@@ -965,6 +965,23 @@
    "estadio": "Alberto José Armando (La Bombonera)",
    "ciudad": "Buenos Aires",
    "torneo": "Liga Profesional Clausura",
+   "jugado": true,
+   "estado": "Full Time",
+   "goles_local": 2,
+   "goles_visitante": 0
+  },
+  {
+   "id": "401936657",
+   "fecha": "2026-11-29",
+   "hora": "20:30",
+   "local": "Boca Juniors",
+   "visitante": "Gimnasia La Plata",
+   "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
+   "de_local": true,
+   "estadio": "Alberto José Armando (La Bombonera)",
+   "ciudad": "Buenos Aires",
+   "torneo": "Liga Profesional Clausura",
    "jugado": false,
    "estado": "Scheduled",
    "goles_local": null,
@@ -973,14 +990,14 @@
   {
    "id": "401932277",
    "fecha": "2026-12-02",
-   "hora": "17:00",
+   "hora": "20:00",
    "local": "Boca Juniors",
    "visitante": "Platense",
    "escudo_local": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
    "escudo_visitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
    "de_local": true,
-   "estadio": "A confirmar",
-   "ciudad": "",
+   "estadio": "'Estadio Único Madre de Ciudades",
+   "ciudad": "Santiago del Estero",
    "torneo": "Copa Argentina",
    "jugado": false,
    "estado": "Scheduled",
